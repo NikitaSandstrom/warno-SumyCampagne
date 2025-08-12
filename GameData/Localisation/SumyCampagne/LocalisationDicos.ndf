@@ -1,0 +1,35 @@
+unnamed TLocalisationDicoResource
+(
+    DicoToken = ~/LocalisationConstantes/dico_units
+    FileName = 'GameData:/Localisation/SumyCampagne/UNITS.csv'
+    CanBeMissing = true
+)
+
+unnamed TLocalisationDicoResource
+(
+    DicoToken = ~/LocalisationConstantes/dico_companies
+    FileName = 'GameData:/Localisation/SumyCampagne/COMPANIES.csv'
+    CanBeMissing = true
+)
+
+unnamed TLocalisationDicoResource
+(
+    DicoToken = ~/LocalisationConstantes/dico_platoons
+    FileName = 'GameData:/Localisation/SumyCampagne/PLATOONS.csv'
+    CanBeMissing = true
+)
+
+unnamed TLocalisationDicoResource
+(
+    DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+    FileName = 'GameData:/Localisation/SumyCampagne/INTERFACE_INGAME.csv'
+    CanBeMissing = true
+)
+
+unnamed TLocalisationDicoResource
+(
+    DicoToken = ~/LocalisationConstantes/dico_interface_outgame
+    FileName = 'GameData:/Localisation/SumyCampagne/INTERFACE_OUTGAME.csv'
+    CanBeMissing = true
+)
+
