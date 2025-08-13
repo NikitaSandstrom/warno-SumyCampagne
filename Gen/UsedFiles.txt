@@ -1,0 +1,5 @@
+GameData:/Localisation/SumyCampagne/COMPANIES.csv
+GameData:/Localisation/SumyCampagne/INTERFACE_INGAME.csv
+GameData:/Localisation/SumyCampagne/INTERFACE_OUTGAME.csv
+GameData:/Localisation/SumyCampagne/PLATOONS.csv
+GameData:/Localisation/SumyCampagne/UNITS.csv

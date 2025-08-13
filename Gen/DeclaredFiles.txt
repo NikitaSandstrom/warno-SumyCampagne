@@ -1,0 +1,2 @@
+ZZ:/PC/Mesh/Pack/SumyCampagne/Mesh_All.spk
+ZZ:/PC/TextureProxy/Pack/SumyCampagne/Mesh_All.ndfbin

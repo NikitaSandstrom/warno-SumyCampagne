@@ -1,0 +1,26 @@
+"DICO";"TOKEN";"REFTEXT";"COMMENT";"CONTEXT";"CONSTRAINT";"DO NOT TRANSLATE";"DLC"
+"EarlyLocalisation.cpp";"0";"Error";;;;;
+"EarlyLocalisation.cpp";"1";"Fatal Error";;;;;
+"EarlyLocalisation.cpp";"2";"Corrupted installation detected. Please verify the game cache integrity or reinstall.";;;;;
+"EarlyLocalisation.cpp";"3";"You have not purchased this game.";;;;;
+"EarlyLocalisation.cpp";"4";"Game did not terminate properly. Do you want to load the last known good configuration ?";;;;;
+"EarlyLocalisation.cpp";"5";"Game did not terminate properly.";;;;;
+"EarlyLocalisation.cpp";"6";"Unable to reset the last known good configuration file, do you want to set up the default configuration?";;;;;
+"EarlyLocalisation.cpp";"7";"Connection to %1 client failed.";;;;;
+"EarlyLocalisation.cpp";"8";"Game requires Windows 7 or later to run.";;;;;
+"EarlyLocalisation.cpp";"9";"Checking operating system";;;;;
+"EarlyLocalisation.cpp";"A";"Game requires Windows 7 SP1, please update Windows.";;;;;
+"EarlyLocalisation.cpp";"B";"Only one instance of game can be launched at a time. Make sure the game is not running in the background or reboot the machine.";;;;;
+"EarlyLocalisation.cpp";"C";"A dll needed to run the game is missing. Please verify the game cache integrity or reinstall.";;;;;
+"EarlyLocalisation.cpp";"D";"Requested mod '%1' could not be loaded.";;;;;
+"EarlyLocalisation.cpp";"E";"WMVCore.dll not found! Videos will not be played.\nFor more informations, please visit the technical forum.";;;;;
+"EarlyLocalisation.cpp";"F";"Some datas are missing, you should reinstall the game or its last content.";;;;;
+"EarlyLocalisation.cpp";"G";"Unable to access graphic device, your hardware or Direct3D configuration is incompatible with this game.\n\nReason:\n";;;;;
+"EarlyLocalisation.cpp";"H";"Critical graphic error";;;;;
+"EarlyLocalisation.cpp";"I";"Other processus (%1.exe) has crashed. The game will now exit.";;;;;
+"EarlyLocalisation.cpp";"J";"XAudio_2_7.dll is missing";;;;;
+"EarlyLocalisation.cpp";"K";"XAudio_2_7.dll is missing, sound will not be available.\nPlease install DirectX June 2010 Redistributable.";;;;;
+"EarlyLocalisation.cpp";"L";"Game did not terminate properly. Do you want to disable all mods to avoid interferences ?";;;;;
+"EarlyLocalisation.cpp";"M";"Game need a GPU supporting at least DirectX 11_0 level feature.\nCheck your GPU capabilities and DirectX version.";;;;;
+"EarlyLocalisation.cpp";"P";"Game is not installed.";;;;;
+"EarlyLocalisation.cpp";"R";"Checking the integrity of the data files is recommended. This might take several minutes.\nCheck data integrity now?";;;;;
