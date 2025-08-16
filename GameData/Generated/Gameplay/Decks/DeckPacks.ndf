@@ -11691,3 +11691,13 @@ Descriptor_Deck_Pack_ZSU_23_Shilka_reco_SOV_1_1 is DeckPackDescriptor
     Number = 1
 )
 
+// Modded down below //
+
+Descriptor_Deck_Pack_Kraz_6322 is DeckPackDescriptor
+(
+    Xp = 1
+    Unit = $/GFX/Unit/Descriptor_Unit_Kraz_6322
+    Number = 1
+)
+
+

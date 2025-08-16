@@ -50998,3 +50998,31 @@ export Gfx_ZSU_57_2_DDR is TacticVehicleDepictionDesc
     SubDepictions = [
     ] + HumanSubDepictions_ZSU_57_2_DDR
 )
+
+
+//Modded down below//
+
+export Gfx_Kraz_6322 is TacticVehicleDepictionDesc
+(
+    CoatingName = 'Kraz_6322'
+    Selector = SpecificVehicleDepictionSelector
+    Alternatives = Alternatives_Kraz_6322
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Ural,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_Vehicle,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+)
