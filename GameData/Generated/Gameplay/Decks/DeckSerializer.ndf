@@ -2144,5 +2144,7 @@ unnamed TDeckSerializerEntries
         ($/GFX/Unit/Descriptor_Unit_Harrier_GR5_CLU_UK, 2989),
         ($/GFX/Unit/Descriptor_Unit_T72B1_early_SOV, 2990),
         ($/GFX/Unit/Descriptor_Unit_OV10_Bronco_US, 3037),
+        // Modded down below //
+        ($/GFX/Unit/Descriptor_Unit_Kraz_6322, 3038),
     ]
 )
