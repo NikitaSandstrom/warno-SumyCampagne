@@ -66653,3 +66653,38 @@ export Descriptor_ShowRoomUnit_Tornado_IDS_MW1_RFA is TEntityDescriptor
         ),
     ]
 )
+
+//Modded units down below//
+
+export Descriptor_ShowRoomUnit_Kraz_6322 is TEntityDescriptor
+(
+    DescriptorId        = GUID:{bacb1e48-75a2-4032-bfdc-05619760e155}
+    ClassNameForDebug   = "ShowRoomUnit_Kraz_6322"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = ECoalition/NATO
+            MotherCountry                    = 'UKR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Logistic
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            PickableObject       = True
+            Depiction            = $/GFX/Depiction/Gfx_Ural_4320_DDR_Showroom
+            ReferenceMesh        = $/GFX/DepictionResources/Modele_Kraz_6322
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            SpawnType = EShowroomSpawnType/Vehicle
+            HasServants = False
+        ),
+    ]
+)
