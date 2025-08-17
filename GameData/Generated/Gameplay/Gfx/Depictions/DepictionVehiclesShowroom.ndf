@@ -7187,3 +7187,8 @@ export Gfx_ZSU_57_2_DDR_Showroom is ShowroomVehicleDepictionDesc
     Selector = SpecificVehicleDepictionSelector
     SubDepictions = HumanSubDepictionsShowroom_ZSU_57_2_DDR
 )
+export Gfx_Kraz_6322_Showroom is ShowroomVehicleDepictionDesc
+(
+    Alternatives = Alternatives_Kraz_6322
+    Selector = SpecificVehicleDepictionSelector
+)

@@ -1391,6 +1391,7 @@ unnamed TMimeticGhostRegistration
         ( 'ZSU_23_Shilka_SOV', GhostDepiction_ZSU_23_Shilka_SOV ),
         ( 'ZSU_23_Shilka_reco_SOV', GhostDepiction_ZSU_23_Shilka_reco_SOV ),
         ( 'ZSU_57_2_DDR', GhostDepiction_ZSU_57_2_DDR ),
+        ( 'Kraz_6322', GhostDepiction_Kraz_6322 ),
     ]
 )
 

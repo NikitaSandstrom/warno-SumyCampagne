@@ -4184,3 +4184,21 @@ export Descriptor_Deck_Division_US_8th_Inf_challenge is TDeckDivisionDescriptor
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
+export Descriptor_Deck_Division_UKR_Test_Div_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{7265322a-3993-4b09-9f2c-d775bcc7e14f}
+    CfgName = 'UKR_Test_Div_multi'
+    DivisionName = 'DCPLBIYTNN'
+    InterfaceOrder = 27.0
+    DivisionPowerClassification = 'DC_PWR1'
+    DivisionCoalition = ECoalition/NATO
+    DivisionTags = ['DEFAULT', 'UKR', 'NATO','DC_PWR1']
+    DescriptionHintTitleToken = 'DCPLBIYTNN'
+    MaxActivationPoints = 50
+    DivisionRule = Descriptor_Deck_Division_UKR_Test_Div_multi_Rule
+    CostMatrix = MatrixCostName_UKR_Test_Div_multi
+    EmblemTexture     = "Texture_Division_Emblem_BEL_16e_Meca"
+    PortraitTexture   = "Texture_Division_Portrait_default"
+    TypeTexture       = "Texture_Division_Type_armored"
+    CountryId = "UKR"
+)

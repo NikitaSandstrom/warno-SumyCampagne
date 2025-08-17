@@ -108,3 +108,8 @@ unnamed TLocalisationDicoResource
     DicoToken = "NAMES_ESP"
     FileName = "GameData:/Gameplay/Unit/Names/UNITNAMES_ESP.csv"
 )
+unnamed TLocalisationDicoResource
+(
+    DicoToken = "NAMES_UKR"
+    FileName = "GameData:/Gameplay/Unit/Names/UNITNAMES_UKR.csv"
+)

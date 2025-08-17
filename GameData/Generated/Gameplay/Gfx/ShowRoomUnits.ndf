@@ -66671,7 +66671,7 @@ export Descriptor_ShowRoomUnit_Kraz_6322 is TEntityDescriptor
         TApparenceModuleDescriptor
         (
             PickableObject       = True
-            Depiction            = $/GFX/Depiction/Gfx_Ural_4320_DDR_Showroom
+            Depiction            = $/GFX/Depiction/Gfx_Kraz_6322_Showroom
             ReferenceMesh        = $/GFX/DepictionResources/Modele_Kraz_6322
         ),
         ~/LinkTeamModuleDescriptor,

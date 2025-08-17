@@ -573,3 +573,15 @@ MatrixCostName_WP_Unternehmen_Zentrum_multi is MAP
     (EFactory/Tanks, [1, 1, 1, 2, 2, 2, 3, 3]),
 ]
 
+MatrixCostName_UKR_Test_Div_multi is MAP
+[
+    (EFactory/Art, [1, 1, 2, 2, 3, 3, 3]),
+    (EFactory/DCA, [1, 1, 2, 2, 3, 3]),
+    (EFactory/Defense, [0]),
+    (EFactory/Helis, [2, 3]),
+    (EFactory/Infantry, [1, 1, 1, 1, 1, 1, 1, 1, 2, 3]),
+    (EFactory/Logistic, [1, 1, 1, 2, 3, 3, 3]),
+    (EFactory/Planes, [1, 1, 2, 2, 3, 3, 3]),
+    (EFactory/Recons, [1, 1, 1, 2, 2, 2, 3, 3]),
+    (EFactory/Tanks, [1, 1, 1, 2, 3, 3, 3]),
+]
