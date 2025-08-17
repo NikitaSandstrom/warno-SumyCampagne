@@ -2396,6 +2396,10 @@ DefaultTextFormatScript is TTextFormatScriptRTTI
             "ES",
             TemplateTFS_Flag(TextureToken = "CommonTexture_MotherCountryFlag_ESP")
         ),
+        (
+            "UKR",
+            TemplateTFS_Flag(TextureToken = "CommonTexture_MotherCountryFlag_UKR")
+        ),
         //-------------------------------------------------------------------------------------
         (
             "ammo",
