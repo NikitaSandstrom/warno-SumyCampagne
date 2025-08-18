@@ -30,6 +30,7 @@ WargameUnitNames is TModernWarfareUnitNamesDico
         ("HON", "NAMES_HON"),
         ("ROU", "NAMES_HON"),
         ("ESP", "NAMES_ESP"),
+        ("UKR", "NAMES_UKR"),
     ]
 )
 

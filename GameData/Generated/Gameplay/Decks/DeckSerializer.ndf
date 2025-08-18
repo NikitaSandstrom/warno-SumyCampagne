@@ -288,6 +288,7 @@ unnamed TDeckSerializerEntries
         (Descriptor_Deck_Division_SOV_157_Rifle_multi, 321),
         (Descriptor_Deck_Division_US_11ACR_challenge, 389),
         (Descriptor_Deck_Division_SOV_57_GMRD_challenge, 390),
+        (Descriptor_Deck_Division_UKR_Test_Div_multi, 391),
     ]
 
     UnitIds = MAP

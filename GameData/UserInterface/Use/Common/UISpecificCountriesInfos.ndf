@@ -49,6 +49,13 @@ export SpecificCountriesInfos is MAP [
             Country = "RFA"
             NameToken = "CtrRFA"
         )),
+    ("UKR", TUISpecificCountryInfos
+        (
+            FlagTexture = "CommonTexture_MotherCountryFlag_UKR"
+            PawnExpTexture = "CommonTexture_Etoile_Grande"
+            Country = "UKR"
+            NameToken = "CtrUKR"
+        )),
     //----------------------^ affichées dans la showroom-------------------------- // Voir UIShowRoomResources.ndf, CountriesToShow
     ("FR", TUISpecificCountryInfos
         (
