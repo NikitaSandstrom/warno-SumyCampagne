@@ -327,9 +327,9 @@ Texture_Division_Emblem_SOV_9TD is TUIResourceTexture_Common
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_9TD.png"
 )
-Texture_Division_Emblem_UKR_OC_NORTH is TUIResourceTexture_Common
+Texture_Division_Emblem_UKR_58TH_BRIHADA is TUIResourceTexture_Common
 (
-    FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/UKR_OC_NORTH.png"
+    FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/UKR_58TH_BRIHADA.png"
 )
 
 Texture_Division_Portrait_default is TUIResourceTexture_Common
@@ -439,7 +439,7 @@ DivisionAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_Division_Emblem_RFA_TerrKdo_Nord", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_RFA_TerrKdo_Nord)]),
         ("Texture_Division_Emblem_SOV_138OdtTP", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_SOV_138OdtTP)]),
         ("Texture_Division_Emblem_SOV_9TD", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_SOV_9TD)]),
-        ("Texture_Division_Emblem_UKR_OC_NORTH", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_UKR_OC_NORTH)]),
+        ("Texture_Division_Emblem_UKR_58TH_BRIHADA", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_UKR_58TH_BRIHADA)]),
         ("Texture_Division_Portrait_default", MAP [(~/ComponentState/Normal, ~/Texture_Division_Portrait_default)]),
         ("Texture_Division_Type_armored", MAP [(~/ComponentState/Normal, ~/Texture_Division_Type_armored)]),
         ("Texture_Division_Type_infantryReg", MAP [(~/ComponentState/Normal, ~/Texture_Division_Type_infantryReg)]),

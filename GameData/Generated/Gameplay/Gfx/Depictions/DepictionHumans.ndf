@@ -8800,6 +8800,42 @@ HumanSubDepictions_ZSU_57_2_DDR is
         MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_DDR_LOW
     ),
 ]
+HumanSubDepictions_Ural_4320_trans_UKR is 
+[
+    SubDepiction_Driver
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_SOV
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Driver_SOV_LOW
+    ),
+]
+HumanSubDepictionsShowroom_Ural_4320_trans_UKR is []
+HumanSubDepictions_Ural_4320_UKR is 
+[
+    SubDepiction_Driver
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_SOV
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Driver_SOV_LOW
+    ),
+]
+HumanSubDepictionsShowroom_Ural_4320_UKR is []
+HumanSubDepictions_Kraz_6322 is 
+[
+    SubDepiction_Driver
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_SOV
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Driver_SOV_LOW
+    ),
+]
+HumanSubDepictionsShowroom_Kraz_6322 is []
+HumanSubDepictions_GAZ_66_UKR is 
+[
+    SubDepiction_Driver
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_SOV
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Driver_SOV_LOW
+    ),
+]
+HumanSubDepictionsShowroom_GAZ_66_UKR is []
 HumanSubDepictionsShowroom_ZSU_57_2_DDR is []
 unnamed TTransportedInfantryCatalogEntries
 (
@@ -14164,6 +14200,16 @@ unnamed TTransportedInfantryCatalogEntries
                 $/GFX/DepictionResources/MeshDescriptor_Servant_D_DDR,
             ]
             UniqueCount = 2
+        ),
+        TTransportedInfantryEntry
+        (
+            Count = 1
+            Identifier = "GAZ_66_UKR"
+            Meshes = 
+            [
+                $/GFX/DepictionResources/MeshDescriptor_Driver_SOV,
+            ]
+            UniqueCount = 1
         ),
     ]
     GfxProperties = $/DepictionCore/GfxProperties

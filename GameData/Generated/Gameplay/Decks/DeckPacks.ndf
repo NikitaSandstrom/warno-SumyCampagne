@@ -11700,4 +11700,39 @@ Descriptor_Deck_Pack_Kraz_6322 is DeckPackDescriptor
     Number = 1
 )
 
+Descriptor_Deck_Pack_GAZ_66_UKR is DeckPackDescriptor
+(
+    Xp = 2
+    Transport = $/GFX/Unit/Descriptor_Unit_GAZ_66_UKR
+    Unit = $/GFX/Unit/Descriptor_Unit_GAZ_66_UKR
+    Number = 1
+)
 
+Descriptor_Deck_Pack_Ural_4320_trans_UKR is DeckPackDescriptor
+(
+    Xp = 2
+    Transport = $/GFX/Unit/Descriptor_Unit_Ural_4320_trans_UKR
+    Unit = $/GFX/Unit/Descriptor_Unit_Ural_4320_trans_UKR
+    Number = 1
+)
+
+Descriptor_Deck_Pack_Ural_4320_UKR is DeckPackDescriptor
+(
+    Xp = 2
+    Unit = $/GFX/Unit/Descriptor_Unit_Ural_4320_UKR
+    Number = 1
+)
+
+Descriptor_Deck_Pack_T64BV_CMD_UKR_1_1 is DeckPackDescriptor
+(
+    Xp = 1
+    Unit = $/GFX/Unit/Descriptor_Unit_T64BV_CMD_UKR
+    Number = 1
+)
+
+Descriptor_Deck_Pack_T64BV_UKR_1_1 is DeckPackDescriptor
+(
+    Xp = 1
+    Unit = $/GFX/Unit/Descriptor_Unit_T64BV_UKR
+    Number = 1
+)
