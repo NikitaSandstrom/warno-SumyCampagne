@@ -25742,52 +25742,58 @@ Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi_Rule is TDeckDivisionRule
         ),
     ]
 )
-Descriptor_Deck_Division_UKR_58th_Separate_Mec_Brig is TDeckDivisionRule
-(
-    UnitRuleList =
-    [
-        TDeckUniteRule
-        (
+Descriptor_Deck_Division_UKR_58th_Separate_Mec_Brig is TDeckDivisionRule (
+    UnitRuleList = [
+        TDeckUniteRule (
             UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Kraz_6322
             AvailableWithoutTransport = True
             MaxPackNumber = 1
             NumberOfUnitInPack = 4
             NumberOfUnitInPackXPMultiplier = [1.0, 0.0, 0.0, 0.0]
         ),
-        TDeckUniteRule
-        (
+        TDeckUniteRule (
             UnitDescriptor = $/GFX/Unit/Descriptor_Unit_GAZ_66_UKR
             AvailableWithoutTransport = True
             MaxPackNumber = 1
             NumberOfUnitInPack = 4
             NumberOfUnitInPackXPMultiplier = [1.0, 0.0, 0.0, 0.0]
         ),
-        TDeckUniteRule
-        (
+        TDeckUniteRule (
             UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Ural_4320_UKR
             AvailableWithoutTransport = True
             MaxPackNumber = 1
             NumberOfUnitInPack = 4
             NumberOfUnitInPackXPMultiplier = [1.0, 0.0, 0.0, 0.0]
         ),
-        TDeckUniteRule
-        (
+        TDeckUniteRule (
             UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Ural_4320_trans_UKR
             AvailableWithoutTransport = True
             MaxPackNumber = 1
             NumberOfUnitInPack = 4
             NumberOfUnitInPackXPMultiplier = [1.0, 0.0, 0.0, 0.0]
         ),
-        TDeckUniteRule
-        (
+        TDeckUniteRule (
+            UnitDescriptor = $/GFX/Unit/Descriptor_Unit_UAZ_3151_UKR
+            AvailableWithoutTransport = True
+            MaxPackNumber = 1
+            NumberOfUnitInPack = 4
+            NumberOfUnitInPackXPMultiplier = [1.0, 0.0, 0.0, 0.0]
+        ),
+        TDeckUniteRule (
+            UnitDescriptor = $/GFX/Unit/Descriptor_Unit_UAZ_3151_kom_UKR
+            AvailableWithoutTransport = True
+            MaxPackNumber = 1
+            NumberOfUnitInPack = 4
+            NumberOfUnitInPackXPMultiplier = [1.0, 0.0, 0.0, 0.0]
+        ),
+        TDeckUniteRule (
             UnitDescriptor = $/GFX/Unit/Descriptor_Unit_T64BV_UKR
             AvailableWithoutTransport = True
             MaxPackNumber = 2
             NumberOfUnitInPack = 5
             NumberOfUnitInPackXPMultiplier = [1.0, 0.68, 0.49, 0.0]
         ),
-        TDeckUniteRule
-        (
+        TDeckUniteRule (
             UnitDescriptor = $/GFX/Unit/Descriptor_Unit_T64BV_CMD_UKR
             AvailableWithoutTransport = True
             MaxPackNumber = 2

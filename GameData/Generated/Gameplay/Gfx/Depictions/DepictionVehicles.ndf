@@ -51002,14 +51002,12 @@ export Gfx_ZSU_57_2_DDR is TacticVehicleDepictionDesc
 
 //Modded down below//
 
-export Gfx_Kraz_6322 is TacticVehicleDepictionDesc
-(
+export Gfx_Kraz_6322 is TacticVehicleDepictionDesc (
     CoatingName = 'Kraz_6322'
     Selector = SpecificVehicleDepictionSelector
     Alternatives = Alternatives_Kraz_6322
 
-    Operators = 
-    [
+    Operators = [
         DepictionOperator_CropFlattening,
         $/GFX/Sound/DepictionOperator_MovementSound_SM_Ural,
         DepictionOperator_SoundProbe,
@@ -51020,24 +51018,21 @@ export Gfx_Kraz_6322 is TacticVehicleDepictionDesc
         DepictionOperator_EjectableProps_Vehicle,
     ]
 
-    Actions = MAP[
-            ]
+    Actions = MAP []
             + DepictionAction_Stress_And_Wrecked
             + DepictionAction_MovementFX_Wheeled
             + DepictionAction_CriticalFX_Tank
 
-    SubDepictions = [
-    ] + HumanSubDepictions_Kraz_6322
+    SubDepictions = []
+            + HumanSubDepictions_Kraz_6322
 )
 
-export Gfx_GAZ_66_UKR is TacticVehicleDepictionDesc
-(
+export Gfx_GAZ_66_UKR is TacticVehicleDepictionDesc (
     CoatingName = 'GAZ_66_UKR'
     Selector = SpecificVehicleDepictionSelector
     Alternatives = Alternatives_GAZ_66_UKR
 
-    Operators = 
-    [
+    Operators = [
         DepictionOperator_CropFlattening,
         $/GFX/Sound/DepictionOperator_MovementSound_SM_GAZ_66,
         DepictionOperator_SoundProbe,
@@ -51048,26 +51043,26 @@ export Gfx_GAZ_66_UKR is TacticVehicleDepictionDesc
         DepictionOperator_EjectableProps_Vehicle,
     ]
 
-    Actions = MAP[
-            ]
+    Actions = MAP []
             + DepictionAction_Stress_And_Wrecked
             + DepictionAction_MovementFX_Wheeled
             + DepictionAction_CriticalFX_Tank
 
-    SubDepictions = [
-    ] + HumanSubDepictions_GAZ_66_UKR
+    SubDepictions = [] 
+            + HumanSubDepictions_GAZ_66_UKR
 
-    SubDepictionGenerators = [ TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_GAZ_66_UKR), TowedUnitSubDepictionGenerator(Mesh = $/GFX/DepictionResources/Modele_GAZ_66_UKR) ]
+    SubDepictionGenerators = [ 
+        TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_GAZ_66_UKR),
+        TowedUnitSubDepictionGenerator(Mesh = $/GFX/DepictionResources/Modele_GAZ_66_UKR)
+    ]
 )
 
-export Gfx_Ural_4320_trans_UKR is TacticVehicleDepictionDesc
-(
+export Gfx_Ural_4320_trans_UKR is TacticVehicleDepictionDesc (
     CoatingName = 'Ural_4320_trans_UKR'
     Selector = SpecificVehicleDepictionSelector
     Alternatives = Alternatives_Ural_4320_trans_UKR
 
-    Operators = 
-    [
+    Operators = [
         DepictionOperator_CropFlattening,
         $/GFX/Sound/DepictionOperator_MovementSound_SM_Ural,
         DepictionOperator_SoundProbe,
@@ -51078,26 +51073,25 @@ export Gfx_Ural_4320_trans_UKR is TacticVehicleDepictionDesc
         DepictionOperator_EjectableProps_Vehicle,
     ]
 
-    Actions = MAP[
-            ]
+    Actions = MAP []
             + DepictionAction_Stress_And_Wrecked
             + DepictionAction_MovementFX_Wheeled
             + DepictionAction_CriticalFX_Tank
 
-    SubDepictions = [
-    ]
+    SubDepictions = []
 
-    SubDepictionGenerators = [ TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_Ural_4320_trans_UKR), TowedUnitSubDepictionGenerator(Mesh = $/GFX/DepictionResources/Modele_Ural_4320_trans_UKR) ]
+    SubDepictionGenerators = [
+        TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_Ural_4320_trans_UKR),
+        TowedUnitSubDepictionGenerator(Mesh = $/GFX/DepictionResources/Modele_Ural_4320_trans_UKR)
+    ]
 )
 
-export Gfx_Ural_4320_UKR is TacticVehicleDepictionDesc
-(
+export Gfx_Ural_4320_UKR is TacticVehicleDepictionDesc (
     CoatingName = 'Ural_4320_UKR'
     Selector = SpecificVehicleDepictionSelector
     Alternatives = Alternatives_Ural_4320_UKR
 
-    Operators = 
-    [
+    Operators = [
         DepictionOperator_CropFlattening,
         $/GFX/Sound/DepictionOperator_MovementSound_SM_Ural,
         DepictionOperator_SoundProbe,
@@ -51108,54 +51102,115 @@ export Gfx_Ural_4320_UKR is TacticVehicleDepictionDesc
         DepictionOperator_EjectableProps_Vehicle,
     ]
 
-    Actions = MAP[
-            ]
+    Actions = MAP []
             + DepictionAction_Stress_And_Wrecked
             + DepictionAction_MovementFX_Wheeled
             + DepictionAction_CriticalFX_Tank
+)
+
+export Gfx_UAZ_3151_UKR is TacticVehicleDepictionDesc (
+    CoatingName = 'UAZ_3151_UKR'
+    Selector = SpecificVehicleDepictionSelector
+    Alternatives = Alternatives_UAZ_3151_UKR
+
+    Operators = [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_UAZ,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_Vehicle,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+
+    SubDepictions = []
+            + HumanSubDepictions_UAZ_3151_UKR
+
+    SubDepictionGenerators = [
+        TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_UAZ_3151_UKR),
+        TowedUnitSubDepictionGenerator(Mesh = $/GFX/DepictionResources/Modele_UAZ_3151_UKR)
+    ]
+)
+
+export Gfx_UAZ_3151_kom_UKR is TacticVehicleDepictionDesc (
+    CoatingName = 'UAZ_3151_kom_UKR'
+    Selector = SpecificVehicleDepictionSelector
+    Alternatives = Alternatives_UAZ_3151_kom_UKR
+
+    Operators = [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_UAZ,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_Vehicle,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[]
+        + DepictionAction_Stress_And_Wrecked
+        + DepictionAction_MovementFX_Wheeled
+        + DepictionAction_CriticalFX_Tank
+
+    SubDepictions = []
+        + HumanSubDepictions_UAZ_3151_kom_UKR
+
+    SubDepictionGenerators = [
+        TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_UAZ_3151_kom_UKR), 
+        TowedUnitSubDepictionGenerator(Mesh = $/GFX/DepictionResources/Modele_UAZ_3151_kom_UKR) 
+    ]
 )
 
 
 
 
 // Dépiction de l'unité T64BV_CMD_UKR
-DepictionOperator_T64BV_CMD_UKR_Weapon1 is DepictionOperator_WeaponInstantFire
-(
+DepictionOperator_T64BV_CMD_UKR_Weapon1 is DepictionOperator_WeaponInstantFire (
     FireEffectTag = "weapon_effet_tag1"
     Anchors = ["fx_tourelle1_tir_01"]
     WeaponShootDataPropertyName = ['WeaponShootData_0_1']
     NbProj = 1
 )
-DepictionOperator_T64BV_CMD_UKR_Weapon2 is DepictionOperator_WeaponInstantFire
-(
+DepictionOperator_T64BV_CMD_UKR_Weapon2 is DepictionOperator_WeaponInstantFire (
     FireEffectTag = "weapon_effet_tag2"
     Anchors = ["fx_tourelle1_tir_01"]
     WeaponShootDataPropertyName = ['WeaponShootData_0_2']
     NbProj = 1
 )
-DepictionOperator_T64BV_CMD_UKR_Weapon4 is DepictionOperator_WeaponContinuousFire
-(
+DepictionOperator_T64BV_CMD_UKR_Weapon4 is DepictionOperator_WeaponContinuousFire (
     FireEffectTag = "weapon_effet_tag4"
     Anchors = ["fx_tourelle4_tir_01"]
     WeaponShootDataPropertyName = "WeaponShootData_0_4"
     WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_4"
     NbFX = 1
 )
-DepictionOperator_T64BV_CMD_UKR_Weapon6 is DepictionOperator_WeaponInstantFire
-(
+DepictionOperator_T64BV_CMD_UKR_Weapon6 is DepictionOperator_WeaponInstantFire (
     FireEffectTag = "weapon_effet_tag6"
-    Anchors = ["fx_tourelle5_tir_01", "fx_tourelle5_tir_02"]
-    WeaponShootDataPropertyName = ['WeaponShootData_0_6', 'WeaponShootData_1_6', 'WeaponShootData_2_6', 'WeaponShootData_3_6']
+    Anchors = [
+        "fx_tourelle5_tir_01", 
+        "fx_tourelle5_tir_02"
+    ]
+    WeaponShootDataPropertyName = [
+        'WeaponShootData_0_6', 
+        'WeaponShootData_1_6', 
+        'WeaponShootData_2_6', 
+        'WeaponShootData_3_6'
+    ]
     NbProj = 4
 )
-export Gfx_T64BV_CMD_UKR is TacticVehicleDepictionDesc
-(
+export Gfx_T64BV_CMD_UKR is TacticVehicleDepictionDesc (
     CoatingName = 'T64BV_CMD_UKR'
     Selector = SpecificVehicleDepictionSelector
     Alternatives = Alternatives_T64BV_CMD_UKR
 
-    Operators = 
-    [
+    Operators = [
         DepictionOperator_CropFlattening,
         $/GFX/Sound/DepictionOperator_MovementSound_SM_T64,
         DepictionOperator_SoundProbe,
@@ -51176,70 +51231,71 @@ export Gfx_T64BV_CMD_UKR is TacticVehicleDepictionDesc
         DepictionOperator_EjectableProps_Vehicle,
     ]
 
-    Actions = MAP[
-                ( "weapon_effet_tag1", Weapon_Canon_AP_125_mm_2A46_T64B_very_late ),
-                ( "weapon_effet_tag2", Weapon_Canon_HE_125_mm_2A46_T64B_very_late ),
-                ( "weapon_effet_tag4", Weapon_MMG_PKT_7_62mm ),
-                ( "weapon_effet_tag6", Weapon_SMOKE_Vehicle_Grenadex8 ),
-            ]
-            + DepictionAction_Stress_And_Wrecked
-            + DepictionAction_MovementFX_Tracked
-            + DepictionAction_CriticalFX_Tank
+    Actions = MAP [
+        ( "weapon_effet_tag1", Weapon_Canon_AP_125_mm_2A46_T64B_very_late ),
+        ( "weapon_effet_tag2", Weapon_Canon_HE_125_mm_2A46_T64B_very_late ),
+        ( "weapon_effet_tag4", Weapon_MMG_PKT_7_62mm ),
+        ( "weapon_effet_tag6", Weapon_SMOKE_Vehicle_Grenadex8 ),
+    ]
+        + DepictionAction_Stress_And_Wrecked
+        + DepictionAction_MovementFX_Tracked
+        + DepictionAction_CriticalFX_Tank
 )
+
 // Dépiction de l'unité T64BV_UKR
-DepictionOperator_T64BV_UKR_Weapon1 is DepictionOperator_WeaponInstantFire
-(
+DepictionOperator_T64BV_UKR_Weapon1 is DepictionOperator_WeaponInstantFire (
     FireEffectTag = "weapon_effet_tag1"
     Anchors = ["fx_tourelle1_tir_01"]
     WeaponShootDataPropertyName = ['WeaponShootData_0_1']
     NbProj = 1
 )
-DepictionOperator_T64BV_UKR_Weapon2 is DepictionOperator_WeaponInstantFire
-(
+DepictionOperator_T64BV_UKR_Weapon2 is DepictionOperator_WeaponInstantFire (
     FireEffectTag = "weapon_effet_tag2"
     Anchors = ["fx_tourelle1_tir_01"]
     WeaponShootDataPropertyName = ['WeaponShootData_0_2']
     NbProj = 1
 )
-DepictionOperator_T64BV_UKR_Weapon3 is DepictionOperator_WeaponMissileCarriageFire
-(
+DepictionOperator_T64BV_UKR_Weapon3 is DepictionOperator_WeaponMissileCarriageFire (
     FireEffectTag = "weapon_effet_tag3"
     Connoisseur = MissileCarriage_T64BV_SOV
     WeaponIndex = 1
     WeaponShootDataPropertyName = ['WeaponShootData_0_3']
     NbProj = 1
 )
-DepictionOperator_T64BV_UKR_Weapon4 is DepictionOperator_WeaponContinuousFire
-(
+DepictionOperator_T64BV_UKR_Weapon4 is DepictionOperator_WeaponContinuousFire (
     FireEffectTag = "weapon_effet_tag4"
     Anchors = ["fx_tourelle2_tir_01"]
     WeaponShootDataPropertyName = "WeaponShootData_0_4"
     WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_4"
     NbFX = 1
 )
-DepictionOperator_T64BV_UKR_Weapon5 is DepictionOperator_WeaponContinuousFire
-(
+DepictionOperator_T64BV_UKR_Weapon5 is DepictionOperator_WeaponContinuousFire (
     FireEffectTag = "weapon_effet_tag5"
     Anchors = ["fx_tourelle4_tir_01"]
     WeaponShootDataPropertyName = "WeaponShootData_0_5"
     WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_5"
     NbFX = 1
 )
-DepictionOperator_T64BV_UKR_Weapon6 is DepictionOperator_WeaponInstantFire
-(
+DepictionOperator_T64BV_UKR_Weapon6 is DepictionOperator_WeaponInstantFire (
     FireEffectTag = "weapon_effet_tag6"
-    Anchors = ["fx_tourelle5_tir_01", "fx_tourelle5_tir_02"]
-    WeaponShootDataPropertyName = ['WeaponShootData_0_6', 'WeaponShootData_1_6', 'WeaponShootData_2_6', 'WeaponShootData_3_6']
+    Anchors = [
+        "fx_tourelle5_tir_01", 
+        "fx_tourelle5_tir_02"
+    ]
+    WeaponShootDataPropertyName = [
+        'WeaponShootData_0_6', 
+        'WeaponShootData_1_6', 
+        'WeaponShootData_2_6', 
+        'WeaponShootData_3_6'
+    ]
     NbProj = 4
 )
-export Gfx_T64BV_UKR is TacticVehicleDepictionDesc
-(
+export Gfx_T64BV_UKR is TacticVehicleDepictionDesc (
     CoatingName = 'T64BV_UKR'
     Selector = SpecificVehicleDepictionSelector
     Alternatives = Alternatives_T64BV_UKR
 
-    Operators = 
-    [
+    Operators = [
         DepictionOperator_CropFlattening,
         $/GFX/Sound/DepictionOperator_MovementSound_SM_T64,
         DepictionOperator_SoundProbe,
@@ -51264,20 +51320,19 @@ export Gfx_T64BV_UKR is TacticVehicleDepictionDesc
     ]
 
     Actions = MAP[
-                ( "weapon_effet_tag1", Weapon_Canon_AP_125_mm_2A46_T64B_very_late ),
-                ( "weapon_effet_tag2", Weapon_Canon_HE_125_mm_2A46_T64B_very_late ),
-                ( "weapon_effet_tag3", Weapon_ATGM_9M128_Agona ),
-                ( "weapon_effet_tag4", Weapon_HMG_12_7_mm_NSVT ),
-                ( "weapon_effet_tag5", Weapon_MMG_PKT_7_62mm ),
-                ( "weapon_effet_tag6", Weapon_SMOKE_Vehicle_Grenadex8 ),
-            ]
-            + DepictionAction_Stress_And_Wrecked
-            + DepictionAction_MovementFX_Tracked
-            + DepictionAction_CriticalFX_Tank
+        ( "weapon_effet_tag1", Weapon_Canon_AP_125_mm_2A46_T64B_very_late ),
+        ( "weapon_effet_tag2", Weapon_Canon_HE_125_mm_2A46_T64B_very_late ),
+        ( "weapon_effet_tag3", Weapon_ATGM_9M128_Agona ),
+        ( "weapon_effet_tag4", Weapon_HMG_12_7_mm_NSVT ),
+        ( "weapon_effet_tag5", Weapon_MMG_PKT_7_62mm ),
+        ( "weapon_effet_tag6", Weapon_SMOKE_Vehicle_Grenadex8 ),
+    ]
+        + DepictionAction_Stress_And_Wrecked
+        + DepictionAction_MovementFX_Tracked
+        + DepictionAction_CriticalFX_Tank
 
     SubDepictions = [
-        ObjectSubDepiction
-        (
+        ObjectSubDepiction (
             Anchor = "base_tourelle_02"
             MeshDescriptor = $/GFX/DepictionResources/Modele_T64BV_SOV_Tourelle_02
         ),

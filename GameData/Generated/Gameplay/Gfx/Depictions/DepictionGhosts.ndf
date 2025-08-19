@@ -4921,33 +4921,36 @@ GhostDepiction_ZSU_57_2_DDR is GhostVehicleDepictionDesc
     Alternatives = Alternatives_ZSU_57_2_DDR
     Selector = SpecificVehicleDepictionSelector
 )
-GhostDepiction_Ural_4320_trans_UKR is GhostVehicleDepictionDesc
-(
-    Alternatives = Alternatives_Ural_4320_trans_UKR
-    Selector = SpecificVehicleDepictionSelector
-)
-GhostDepiction_Ural_4320_UKR is GhostVehicleDepictionDesc
-(
-    Alternatives = Alternatives_Ural_4320_UKR
-    Selector = SpecificVehicleDepictionSelector
-)
-GhostDepiction_Kraz_6322 is GhostVehicleDepictionDesc
-(
+
+GhostDepiction_Kraz_6322 is GhostVehicleDepictionDesc (
     Alternatives = Alternatives_Kraz_6322
     Selector = SpecificVehicleDepictionSelector
 )
-GhostDepiction_GAZ_66_UKR is GhostVehicleDepictionDesc
-(
+GhostDepiction_GAZ_66_UKR is GhostVehicleDepictionDesc (
     Alternatives = Alternatives_GAZ_66_UKR
     Selector = SpecificVehicleDepictionSelector
 )
-GhostDepiction_T64BV_CMD_UKR is GhostVehicleDepictionDesc
-(
+GhostDepiction_Ural_4320_trans_UKR is GhostVehicleDepictionDesc (
+    Alternatives = Alternatives_Ural_4320_trans_UKR
+    Selector = SpecificVehicleDepictionSelector
+)
+GhostDepiction_Ural_4320_UKR is GhostVehicleDepictionDesc (
+    Alternatives = Alternatives_Ural_4320_UKR
+    Selector = SpecificVehicleDepictionSelector
+)
+GhostDepiction_UAZ_3151_kom_UKR is GhostVehicleDepictionDesc (
+    Alternatives = Alternatives_UAZ_3151_kom_UKR
+    Selector = SpecificVehicleDepictionSelector
+)
+GhostDepiction_UAZ_3151_UKR is GhostVehicleDepictionDesc (
+    Alternatives = Alternatives_UAZ_3151_UKR
+    Selector = SpecificVehicleDepictionSelector
+)
+GhostDepiction_T64BV_CMD_UKR is GhostVehicleDepictionDesc (
     Alternatives = Alternatives_T64BV_CMD_UKR
     Selector = SpecificVehicleDepictionSelector
 )
-GhostDepiction_T64BV_UKR is GhostVehicleDepictionDesc
-(
+GhostDepiction_T64BV_UKR is GhostVehicleDepictionDesc (
     Alternatives = Alternatives_T64BV_UKR
     Selector = SpecificVehicleDepictionSelector
 )

@@ -7187,43 +7187,48 @@ export Gfx_ZSU_57_2_DDR_Showroom is ShowroomVehicleDepictionDesc
     Selector = SpecificVehicleDepictionSelector
     SubDepictions = HumanSubDepictionsShowroom_ZSU_57_2_DDR
 )
-export Gfx_Kraz_6322_Showroom is ShowroomVehicleDepictionDesc
-(
+
+
+
+export Gfx_Kraz_6322_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_Kraz_6322
     Selector = SpecificVehicleDepictionSelector
 )
-export Gfx_GAZ_66_UKR_Showroom is ShowroomVehicleDepictionDesc
-(
+export Gfx_GAZ_66_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_GAZ_66_UKR
     Selector = SpecificVehicleDepictionSelector
     SubDepictions = HumanSubDepictionsShowroom_GAZ_66_UKR
 )
 
-export Gfx_Ural_4320_UKR_Showroom is ShowroomVehicleDepictionDesc
-(
+export Gfx_Ural_4320_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_Ural_4320_UKR
     Selector = SpecificVehicleDepictionSelector
 )
-export Gfx_Ural_4320_trans_UKR_Showroom is ShowroomVehicleDepictionDesc
-(
+export Gfx_Ural_4320_trans_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_Ural_4320_trans_UKR
     Selector = SpecificVehicleDepictionSelector
     SubDepictions = HumanSubDepictionsShowroom_Ural_4320_trans_UKR
 )
+export Gfx_UAZ_3151_UKR_Showroom is ShowroomVehicleDepictionDesc (
+    Alternatives = Alternatives_UAZ_3151_UKR
+    Selector = SpecificVehicleDepictionSelector
+    SubDepictions = HumanSubDepictionsShowroom_UAZ_3151_UKR
+)
+export Gfx_UAZ_3151_kom_UKR_Showroom is ShowroomVehicleDepictionDesc (
+    Alternatives = Alternatives_UAZ_3151_kom_UKR
+    Selector = SpecificVehicleDepictionSelector
+    SubDepictions = HumanSubDepictionsShowroom_UAZ_3151_kom_UKR
+)
 
-export Gfx_T64BV_CMD_UKR_Showroom is ShowroomVehicleDepictionDesc
-(
+export Gfx_T64BV_CMD_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_T64BV_CMD_UKR
     Selector = SpecificVehicleDepictionSelector
 )
-export Gfx_T64BV_UKR_Showroom is ShowroomVehicleDepictionDesc
-(
+export Gfx_T64BV_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_T64BV_UKR
     Selector = SpecificVehicleDepictionSelector
-    SubDepictions = 
-    [
-        ObjectSubDepiction
-        (
+    SubDepictions = [
+        ObjectSubDepiction (
             Anchor = "base_tourelle_02"
             MeshDescriptor = $/GFX/DepictionResources/Modele_T64BV_SOV_Tourelle_02
         ),

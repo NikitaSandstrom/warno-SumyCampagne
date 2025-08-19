@@ -1,0 +1,14 @@
+export Modele_UAZ_3151_UKR is TResourceMesh (
+    Mesh="GameData:/Assets/3D/Units/URSS/Vehicule/UAZ_469_CMD/UAZ_469_CMD.fbx"
+)
+
+export Modele_UAZ_3151_UKR_MID is TResourceMesh (
+    Mesh="GameData:/Assets/3D/Units/URSS/Vehicule/UAZ_469_CMD_MID/UAZ_469_CMD_MID.fbx"
+)
+
+export Modele_UAZ_3151_UKR_LOW is TResourceMesh (
+    Mesh="GameData:/Assets/3D/Units/URSS/Vehicule/UAZ_469_CMD_LOW/UAZ_469_CMD_LOW.fbx"
+)
+
+
+

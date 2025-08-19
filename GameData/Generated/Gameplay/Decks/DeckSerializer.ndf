@@ -2150,7 +2150,9 @@ unnamed TDeckSerializerEntries
         ($/GFX/Unit/Descriptor_Unit_GAZ_66_UKR, 3039),
         ($/GFX/Unit/Descriptor_Unit_Ural_4320_trans_UKR, 3040),
         ($/GFX/Unit/Descriptor_Unit_Ural_4320_UKR, 3041),
-        ($/GFX/Unit/Descriptor_Unit_T64BV_CMD_UKR, 3042),
-        ($/GFX/Unit/Descriptor_Unit_T64BV_UKR, 3043),
+        ($/GFX/Unit/Descriptor_Unit_UAZ_3151_kom_UKR, 3042),
+        ($/GFX/Unit/Descriptor_Unit_UAZ_3151_UKR, 3043),
+        ($/GFX/Unit/Descriptor_Unit_T64BV_CMD_UKR, 3044),
+        ($/GFX/Unit/Descriptor_Unit_T64BV_UKR, 3045),
     ]
 )
