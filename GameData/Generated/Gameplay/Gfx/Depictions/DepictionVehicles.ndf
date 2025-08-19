@@ -51057,6 +51057,31 @@ export Gfx_GAZ_66_UKR is TacticVehicleDepictionDesc (
     ]
 )
 
+export Gfx_GAZ_66_kom_UKR is TacticVehicleDepictionDesc (
+    CoatingName = 'GAZ_66_kom_UKR'
+    Selector = SpecificVehicleDepictionSelector
+    Alternatives = Alternatives_GAZ_66_kom_UKR
+
+    Operators = [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_GAZ_66,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_Vehicle,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP []
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+
+    SubDepictions = [] 
+            + HumanSubDepictions_GAZ_66_kom_UKR
+)
+
 export Gfx_Ural_4320_trans_UKR is TacticVehicleDepictionDesc (
     CoatingName = 'Ural_4320_trans_UKR'
     Selector = SpecificVehicleDepictionSelector

@@ -7199,6 +7199,11 @@ export Gfx_GAZ_66_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Selector = SpecificVehicleDepictionSelector
     SubDepictions = HumanSubDepictionsShowroom_GAZ_66_UKR
 )
+export Gfx_GAZ_66_kom_UKR_Showroom is ShowroomVehicleDepictionDesc (
+    Alternatives = Alternatives_GAZ_66_kom_UKR
+    Selector = SpecificVehicleDepictionSelector
+    SubDepictions = HumanSubDepictionsShowroom_GAZ_66_kom_UKR
+)
 
 export Gfx_Ural_4320_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_Ural_4320_UKR

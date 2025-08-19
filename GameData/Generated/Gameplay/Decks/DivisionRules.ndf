@@ -25759,6 +25759,13 @@ Descriptor_Deck_Division_UKR_58th_Separate_Mec_Brig is TDeckDivisionRule (
             NumberOfUnitInPackXPMultiplier = [1.0, 0.0, 0.0, 0.0]
         ),
         TDeckUniteRule (
+            UnitDescriptor = $/GFX/Unit/Descriptor_Unit_GAZ_66_kom_UKR
+            AvailableWithoutTransport = True
+            MaxPackNumber = 1
+            NumberOfUnitInPack = 4
+            NumberOfUnitInPackXPMultiplier = [1.0, 0.0, 0.0, 0.0]
+        ),
+        TDeckUniteRule (
             UnitDescriptor = $/GFX/Unit/Descriptor_Unit_Ural_4320_UKR
             AvailableWithoutTransport = True
             MaxPackNumber = 1

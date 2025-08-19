@@ -1393,6 +1393,7 @@ unnamed TMimeticGhostRegistration
         ( 'ZSU_57_2_DDR', GhostDepiction_ZSU_57_2_DDR ),
         ( 'Kraz_6322', GhostDepiction_Kraz_6322 ),
         ( 'GAZ_66_UKR', GhostDepiction_GAZ_66_UKR ),
+        ( 'GAZ_66_kom_UKR', GhostDepiction_GAZ_66_kom_UKR ),
         ( 'Ural_4320_trans_UKR', GhostDepiction_Ural_4320_trans_UKR ),
         ( 'Ural_4320_UKR', GhostDepiction_Ural_4320_UKR ),
         ( 'UAZ_3151_kom_UKR', GhostDepiction_UAZ_3151_kom_UKR ),

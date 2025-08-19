@@ -66712,6 +66712,34 @@ export Descriptor_ShowRoomUnit_GAZ_66_UKR is TEntityDescriptor (
     ]
 )
 
+export Descriptor_ShowRoomUnit_GAZ_66_kom_UKR is TEntityDescriptor (
+    DescriptorId        = GUID:{0d1c36f4-8210-4163-9c66-7srgaz66kukr}
+    ClassNameForDebug   = "ShowRoomUnit_GAZ_66_kom_UKR"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor (
+            Coalition                        = ECoalition/NATO
+            MotherCountry                    = 'UKR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Transport
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModuleDescriptor (
+            PickableObject       = True
+            Depiction            = $/GFX/Depiction/Gfx_GAZ_66_kom_UKR_Showroom
+            ReferenceMesh        = $/GFX/DepictionResources/Modele_GAZ_66_kom_UKR
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor (
+            SpawnType = EShowroomSpawnType/Vehicle
+            HasServants = False
+        ),
+    ]
+)
+
 export Descriptor_ShowRoomUnit_Ural_4320_trans_UKR is TEntityDescriptor (
     DescriptorId        = GUID:{bb5fe286-c0da-410e-86sr-ural4320tukr} 
     ClassNameForDebug   = "ShowRoomUnit_Ural_4320_trans_UKR"

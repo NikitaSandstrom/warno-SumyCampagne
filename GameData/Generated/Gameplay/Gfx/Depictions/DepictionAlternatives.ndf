@@ -8312,10 +8312,16 @@ Alternatives_Kraz_6322 is [
     DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_Kraz_6322_MID ),
     DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_Kraz_6322_LOW ),
 ]
+
 Alternatives_GAZ_66_UKR is [
     DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_GAZ_66_UKR ),
     DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_GAZ_66_UKR_MID ),
     DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_GAZ_66_UKR_LOW ),
+]
+Alternatives_GAZ_66_kom_UKR is [
+    DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_GAZ_66_kom_UKR ),
+    DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_GAZ_66_kom_UKR_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_GAZ_66_kom_UKR_LOW ),
 ]
 Alternatives_Ural_4320_trans_UKR is [
     DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_Ural_4320_trans_UKR ),

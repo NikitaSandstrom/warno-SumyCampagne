@@ -4930,6 +4930,10 @@ GhostDepiction_GAZ_66_UKR is GhostVehicleDepictionDesc (
     Alternatives = Alternatives_GAZ_66_UKR
     Selector = SpecificVehicleDepictionSelector
 )
+GhostDepiction_GAZ_66_kom_UKR is GhostVehicleDepictionDesc (
+    Alternatives = Alternatives_GAZ_66_kom_UKR
+    Selector = SpecificVehicleDepictionSelector
+)
 GhostDepiction_Ural_4320_trans_UKR is GhostVehicleDepictionDesc (
     Alternatives = Alternatives_Ural_4320_trans_UKR
     Selector = SpecificVehicleDepictionSelector
