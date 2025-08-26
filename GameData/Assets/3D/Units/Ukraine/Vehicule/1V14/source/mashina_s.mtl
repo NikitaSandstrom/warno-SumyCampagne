@@ -1,0 +1,46 @@
+# Blender 4.5.1 LTS MTL File: 'None'
+# www.blender.org
+
+newmtl body
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd RU_MashinaS_1_BaseMap.png
+map_Ns RU_MashinaS_1_MaskMap.png
+map_Bump -bm 1.000000 RU_MashinaS_1_BaseMap_Normal.png
+
+newmtl mac3
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 2
+map_Kd MashinaS_Camo_1_BaseMap.png
+map_Ns MashinaS_Camo_1_MaskMap.png
+map_d MashinaS_Camo_1_BaseMap.png
+map_Bump -bm 1.000000 MashinaS_Camo_1_BaseMap_Normal.png
+
+newmtl pkp
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd PKM_PKP_var_PKM_PKP_Var_BaseMap.png
+map_Ns PKM_PKP_var_PKM_PKP_Var_MaskMap.png
+map_Bump -bm 1.000000 PKM_PKP_var_PKM_PKP_Var_Normal.png
+
+newmtl tracks
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 2
+map_Kd RU_Track2_Track2C_BaseMap.png
+map_Ns RU_Track2_Track2C_MaskMap.png
+map_d RU_Track2_Track2C_BaseMap.png
+map_Bump -bm 1.000000 RU_Track2_Track2C_Normal.png
