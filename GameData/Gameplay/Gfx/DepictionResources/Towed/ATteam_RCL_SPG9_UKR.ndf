@@ -1,0 +1,11 @@
+export Modele_ATteam_RCL_SPG9_UKR is TResourceMesh (
+    Mesh="GameData:/Assets/3D/Units/URSS/APC/GTMU_1D_SPG9/SPG9.fbx"
+)
+
+export Modele_ATteam_RCL_SPG9_UKR_MID is TResourceMesh (
+    Mesh="GameData:/Assets/3D/Units/URSS/APC/GTMU_1D_SPG9_MID/SPG9_MID.fbx"
+)
+
+export Modele_ATteam_RCL_SPG9_UKR_LOW is TResourceMesh (
+    Mesh="GameData:/Assets/3D/Units/URSS/APC/GTMU_1D_SPG9_LOW/SPG9_LOW.fbx"
+)

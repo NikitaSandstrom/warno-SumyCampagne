@@ -9329,82 +9329,85 @@ Gfx_ZSU_57_2_DDR_Showroom is ShowroomVehicleDepictionDesc
     SubDepictions = HumanSubDepictionsShowroom_ZSU_57_2_DDR
 )
 
-export Gfx_Kraz_6322_Showroom is ShowroomVehicleDepictionDesc (
+Gfx_Kraz_6322_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_Kraz_6322
     Selector = SpecificVehicleDepictionSelector
 )
-export Gfx_GAZ_66_UKR_Showroom is ShowroomVehicleDepictionDesc (
+Gfx_GAZ_66_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_GAZ_66_UKR
     Selector = SpecificVehicleDepictionSelector
     SubDepictions = HumanSubDepictionsShowroom_GAZ_66_UKR
 )
-export Gfx_GAZ_66_kom_UKR_Showroom is ShowroomVehicleDepictionDesc (
+Gfx_GAZ_66_kom_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_GAZ_66_kom_UKR
     Selector = SpecificVehicleDepictionSelector
     SubDepictions = HumanSubDepictionsShowroom_GAZ_66_kom_UKR
 )
 
-Gfx_MTLB_trans_UKR_Showroom is ShowroomVehicleDepictionDesc
-(
+Gfx_MTLB_trans_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_MTLB_trans_UKR
     Selector = SpecificVehicleDepictionSelector
 )
+Gfx_MTLB_supply_UKR_Showroom is ShowroomVehicleDepictionDesc (
+    Alternatives = Alternatives_MTLB_supply_UKR
+    Selector = SpecificVehicleDepictionSelector
+)
 
-export Gfx_Ural_4320_UKR_Showroom is ShowroomVehicleDepictionDesc (
+Gfx_Ural_4320_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_Ural_4320_UKR
     Selector = SpecificVehicleDepictionSelector
 )
-export Gfx_Ural_4320_trans_UKR_Showroom is ShowroomVehicleDepictionDesc (
+Gfx_Ural_4320_trans_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_Ural_4320_trans_UKR
     Selector = SpecificVehicleDepictionSelector
     SubDepictions = HumanSubDepictionsShowroom_Ural_4320_trans_UKR
 )
-export Gfx_UAZ_3151_UKR_Showroom is ShowroomVehicleDepictionDesc (
+Gfx_UAZ_3151_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_UAZ_3151_UKR
     Selector = SpecificVehicleDepictionSelector
     SubDepictions = HumanSubDepictionsShowroom_UAZ_3151_UKR
 )
-export Gfx_UAZ_3151_kom_UKR_Showroom is ShowroomVehicleDepictionDesc (
+Gfx_UAZ_3151_kom_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_UAZ_3151_kom_UKR
     Selector = SpecificVehicleDepictionSelector
     SubDepictions = HumanSubDepictionsShowroom_UAZ_3151_kom_UKR
 )
-export Gfx_Kraz_260_UKR_Showroom is ShowroomVehicleDepictionDesc (
+Gfx_Kraz_260_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_Kraz_260_UKR
     Selector = SpecificVehicleDepictionSelector
 )
 
-export Gfx_BMP_1K_UKR_Showroom is ShowroomVehicleDepictionDesc (
+Gfx_BMP_1K_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_BMP_1K_UKR
     Selector = SpecificVehicleDepictionSelector
 )
-export Gfx_BMP_1Ksh_UKR_Showroom is ShowroomVehicleDepictionDesc (
+Gfx_BMP_1Ksh_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_BMP_1Ksh_UKR
     Selector = SpecificVehicleDepictionSelector
 )
-export Gfx_BMP_1_UKR_Showroom is ShowroomVehicleDepictionDesc (
+Gfx_BMP_1_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_BMP_1_UKR
     Selector = SpecificVehicleDepictionSelector
 )
 
-export Gfx_BRM_1_UKR_Showroom is ShowroomVehicleDepictionDesc (
+Gfx_BRM_1_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_BRM_1_UKR
     Selector = SpecificVehicleDepictionSelector
 )
-export Gfx_BRDM_2_UKR_Showroom is ShowroomVehicleDepictionDesc (
+Gfx_BRDM_2_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_BRDM_2_UKR
     Selector = SpecificVehicleDepictionSelector
 )
 
-export Gfx_BTR_60_kom_UKR_Showroom is ShowroomVehicleDepictionDesc (
+Gfx_BTR_60_kom_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_BTR_60_kom_UKR
     Selector = SpecificVehicleDepictionSelector
 )
-export Gfx_T64BV_CMD_UKR_Showroom is ShowroomVehicleDepictionDesc (
+Gfx_T64BV_CMD_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_T64BV_CMD_UKR
     Selector = SpecificVehicleDepictionSelector
 )
-export Gfx_T64BV_UKR_Showroom is ShowroomVehicleDepictionDesc (
+Gfx_T64BV_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_T64BV_UKR
     Selector = SpecificVehicleDepictionSelector
     SubDepictions = [
@@ -9415,12 +9418,60 @@ export Gfx_T64BV_UKR_Showroom is ShowroomVehicleDepictionDesc (
     ]
 )
 
-export Gfx_ZSU_23_4_M1_UKR_Showroom is ShowroomVehicleDepictionDesc (
+Gfx_DCA_ZU_23_2_UKR_Showroom is ShowroomVehicleDepictionDesc (
+    Alternatives = Alternatives_DCA_ZU_23_2_UKR
+    Selector = SpecificVehicleDepictionSelector
+    SubDepictions = HumanSubDepictionsShowroom_DCA_ZU_23_2_UKR
+)
+
+Gfx_ZSU_23_4_M1_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_ZSU_23_4_M1_UKR
     Selector = SpecificVehicleDepictionSelector
 )
-export Gfx_MTLB_Strela10_UKR_Showroom is ShowroomVehicleDepictionDesc (
+Gfx_MTLB_Strela10_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_MTLB_Strela10_UKR
+    Selector = SpecificVehicleDepictionSelector
+)
+
+Gfx_Mortier_2B14_82mm_UKR_Showroom is ShowroomVehicleDepictionDesc (
+    Alternatives = Alternatives_Mortier_2B14_82mm_UKR
+    Selector = SpecificVehicleDepictionSelector
+    SubDepictions = HumanSubDepictionsShowroom_Mortier_2B14_82mm_UKR
+)
+Gfx_Mortier_2S12_120mm_UKR_Showroom is ShowroomVehicleDepictionDesc (
+    Alternatives = Alternatives_Mortier_2S12_120mm_UKR
+    Selector = SpecificVehicleDepictionSelector
+    SubDepictions = HumanSubDepictionsShowroom_Mortier_2S12_120mm_UKR
+)
+Gfx_Howz_D20_152mm_UKR_Showroom is ShowroomVehicleDepictionDesc (
+    Alternatives = Alternatives_Howz_D20_152mm_UKR
+    Selector = SpecificVehicleDepictionSelector
+    SubDepictions = HumanSubDepictionsShowroom_Howz_D20_152mm_UKR
+)
+
+Gfx_ATteam_RCL_SPG9_UKR_Showroom is ShowroomVehicleDepictionDesc (
+    Alternatives = Alternatives_ATteam_RCL_SPG9_UKR
+    Selector = SpecificVehicleDepictionSelector
+    SubDepictions = HumanSubDepictionsShowroom_ATteam_RCL_SPG9_UKR
+)
+Gfx_AT_T12A_UKR_Showroom is ShowroomVehicleDepictionDesc (
+    Alternatives = Alternatives_AT_T12A_UKR
+    Selector = SpecificVehicleDepictionSelector
+    SubDepictions = HumanSubDepictionsShowroom_AT_T12A_UKR
+)
+Gfx_AT_MT12K_Rapira_UKR_Showroom is ShowroomVehicleDepictionDesc (
+    Alternatives = Alternatives_AT_MT12K_Rapira_UKR
+    Selector = SpecificVehicleDepictionSelector
+    SubDepictions = HumanSubDepictionsShowroom_AT_MT12K_Rapira_UKR
+)
+Gfx_AT_MT12R_Ruta_UKR_Showroom is ShowroomVehicleDepictionDesc (
+    Alternatives = Alternatives_AT_MT12R_Ruta_UKR
+    Selector = SpecificVehicleDepictionSelector
+    SubDepictions = HumanSubDepictionsShowroom_AT_MT12R_Ruta_UKR
+)
+
+Gfx_2S1_UKR_Showroom is ShowroomVehicleDepictionDesc (
+    Alternatives = Alternatives_2S1_UKR
     Selector = SpecificVehicleDepictionSelector
 )
 
@@ -10647,6 +10698,7 @@ unnamed TMimeticUnitRegistration (
         ('showroom_GAZ_66_UKR', Gfx_GAZ_66_UKR_Showroom),
         ('showroom_GAZ_66_kom_UKR', Gfx_GAZ_66_kom_UKR_Showroom),
         ('showroom_MTLB_trans_UKR', Gfx_MTLB_trans_UKR_Showroom),
+        ('showroom_MTLB_supply_UKR', Gfx_MTLB_supply_UKR_Showroom),
         ('showroom_Ural_4320_trans_UKR', Gfx_Ural_4320_trans_UKR_Showroom),
         ('showroom_Ural_4320_UKR', Gfx_Ural_4320_UKR_Showroom),
         ('showroom_UAZ_3151_kom_UKR', Gfx_UAZ_3151_kom_UKR_Showroom),
@@ -10660,7 +10712,16 @@ unnamed TMimeticUnitRegistration (
         ('showroom_BTR_60_kom_UKR', Gfx_BTR_60_kom_UKR_Showroom),
         ('showroom_T64BV_CMD_UKR', Gfx_T64BV_CMD_UKR_Showroom),
         ('showroom_T64BV_UKR', Gfx_T64BV_UKR_Showroom),
+        ('showroom_DCA_ZU_23_2_UKR', Gfx_DCA_ZU_23_2_UKR_Showroom),
         ('showroom_ZSU_23_4_M1_UKR', Gfx_ZSU_23_4_M1_UKR_Showroom),
         ('showroom_MTLB_Strela10_UKR', Gfx_MTLB_Strela10_UKR_Showroom),
+        ('showroom_Mortier_2B14_82mm_UKR', Gfx_Mortier_2B14_82mm_UKR_Showroom),
+        ('showroom_Mortier_2S12_120mm_UKR', Gfx_Mortier_2S12_120mm_UKR_Showroom),
+        ('showroom_Howz_D20_152mm_UKR', Gfx_Howz_D20_152mm_UKR_Showroom),
+        ('showroom_ATteam_RCL_SPG9_UKR', Gfx_ATteam_RCL_SPG9_UKR_Showroom),
+        ('showroom_AT_T12A_UKR', Gfx_AT_T12A_UKR_Showroom),
+        ('showroom_AT_MT12K_Rapira_UKR', Gfx_AT_MT12K_Rapira_UKR_Showroom),
+        ('showroom_AT_MT12R_Ruta_UKR', Gfx_AT_MT12R_Ruta_UKR_Showroom),
+        ('showroom_2S1_UKR', Gfx_2S1_UKR_Showroom),
     ]
 )

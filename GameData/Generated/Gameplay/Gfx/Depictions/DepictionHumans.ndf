@@ -10649,8 +10649,7 @@ HumanSubDepictions_ZSU_57_2_DDR is
         MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_DDR_LOW
     ),
 ]
-HumanSubDepictions_Ural_4320_trans_UKR is 
-[
+HumanSubDepictions_Ural_4320_trans_UKR is [
     SubDepiction_Driver
     (
         MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_SOV
@@ -10658,8 +10657,7 @@ HumanSubDepictions_Ural_4320_trans_UKR is
     ),
 ]
 HumanSubDepictionsShowroom_Ural_4320_trans_UKR is []
-HumanSubDepictions_Ural_4320_UKR is 
-[
+HumanSubDepictions_Ural_4320_UKR is [
     SubDepiction_Driver
     (
         MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_SOV
@@ -10709,6 +10707,161 @@ HumanSubDepictions_Kraz_260_UKR is [
     ),
 ]
 HumanSubDepictionsShowroom_Kraz_260_UKR is []
+
+HumanSubDepictions_DCA_ZU_23_2_UKR is [
+    SubDepiction_ServantWalkOnlyLeft (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko_LOW
+    ),
+    SubDepiction_GunnerIdleOnlyLeft (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko_LOW
+    ),
+    SubDepiction_ServantWalkOnlyRight (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko_LOW
+    ),
+    SubDepiction_GunnerIdleOnlyRight (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko_LOW
+    ),
+]
+HumanSubDepictionsShowroom_DCA_ZU_23_2_UKR is [
+    ShowroomSubDepiction_GunnerLeft (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+    ),
+    ShowroomSubDepiction_GunnerRight (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+    ),
+]
+
+HumanSubDepictions_Mortier_2B14_82mm_UKR is [
+    SubDepiction_ServantLeft (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko_LOW
+    ),
+    SubDepiction_ATGMServantRight (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko_LOW
+    ),
+]
+HumanSubDepictionsShowroom_Mortier_2B14_82mm_UKR is [
+    ShowroomSubDepiction_ServantLeft (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+    ),
+    ShowroomSubDepiction_ATGMServantRight (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+    ),
+]
+HumanSubDepictions_Mortier_2S12_120mm_UKR is [
+    SubDepiction_ATGMServantLeft (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko_LOW
+    ),
+    SubDepiction_ATGMServantRight (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko_LOW
+    ),
+]
+HumanSubDepictionsShowroom_Mortier_2S12_120mm_UKR is [
+    ShowroomSubDepiction_ATGMServantLeft (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+    ),
+    ShowroomSubDepiction_ATGMServantRight (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+    ),
+]
+
+HumanSubDepictions_Howz_D20_152mm_UKR is [
+    SubDepiction_ServantLeft (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko_LOW
+    ),
+    SubDepiction_ServantRight (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko_LOW
+    ),
+]
+HumanSubDepictionsShowroom_Howz_D20_152mm_UKR is [
+    ShowroomSubDepiction_ServantLeft (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+    ),
+    ShowroomSubDepiction_ServantRight (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+    ),
+]
+HumanSubDepictions_ATteam_RCL_SPG9_UKR is [
+    SubDepiction_ATGMServantLeft (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko_LOW
+    ),
+    SubDepiction_ATGMServantRight (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko_LOW
+    ),
+]
+HumanSubDepictionsShowroom_ATteam_RCL_SPG9_UKR is [
+    ShowroomSubDepiction_ATGMServantLeft (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+    ),
+    ShowroomSubDepiction_ATGMServantRight (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+    ),
+]
+HumanSubDepictions_AT_T12A_UKR is [
+    SubDepiction_ServantLeft (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko_LOW
+    ),
+    SubDepiction_ServantRight (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko_LOW
+    ),
+]
+HumanSubDepictionsShowroom_AT_T12A_UKR is [
+    ShowroomSubDepiction_ServantLeft (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+    ),
+    ShowroomSubDepiction_ServantRight (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+    ),
+]
+HumanSubDepictions_AT_MT12K_Rapira_UKR is [
+    SubDepiction_ServantLeft (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko_LOW
+    ),
+    SubDepiction_ServantRight (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko_LOW
+    ),
+]
+HumanSubDepictionsShowroom_AT_MT12K_Rapira_UKR is [
+    ShowroomSubDepiction_ServantLeft (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+    ),
+    ShowroomSubDepiction_ServantRight (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+    ),
+]
+HumanSubDepictions_AT_MT12R_Ruta_UKR is [
+    SubDepiction_ServantLeft (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko_LOW
+    ),
+    SubDepiction_ServantRight (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko_LOW
+    ),
+]
+HumanSubDepictionsShowroom_AT_MT12R_Ruta_UKR is [
+    ShowroomSubDepiction_ServantLeft (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+    ),
+    ShowroomSubDepiction_ServantRight (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+    ),
+]
 
 
 HumanSubDepictionsShowroom_ZSU_57_2_DDR is []
@@ -10911,6 +11064,33 @@ unnamed TTransportedInfantryCatalogEntries
             [
                 $/GFX/DepictionResources/MeshDescriptor_Servant_G_SOV,
                 $/GFX/DepictionResources/MeshDescriptor_Servant_D_SOV,
+            ]
+            UniqueCount = 2
+        ),
+        TTransportedInfantryEntry (
+            Count = 2
+            Identifier = "AT_T12A_UKR"
+            Meshes = [
+                $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko,
+                $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko,
+            ]
+            UniqueCount = 2
+        ),
+        TTransportedInfantryEntry (
+            Count = 2
+            Identifier = "AT_MT12K_Rapira_UKR"
+            Meshes = [
+                $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko,
+                $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko,
+            ]
+            UniqueCount = 2
+        ),
+        TTransportedInfantryEntry (
+            Count = 2
+            Identifier = "AT_MT12R_Ruta_UKR"
+            Meshes = [
+                $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko,
+                $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko,
             ]
             UniqueCount = 2
         ),
@@ -11384,6 +11564,15 @@ unnamed TTransportedInfantryCatalogEntries
             [
                 $/GFX/DepictionResources/MeshDescriptor_Servant_G_SOV,
                 $/GFX/DepictionResources/MeshDescriptor_Servant_D_SOV,
+            ]
+            UniqueCount = 2
+        ),
+        TTransportedInfantryEntry (
+            Count = 2
+            Identifier = "ATteam_RCL_SPG9_UKR"
+            Meshes = [
+                $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko,
+                $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko,
             ]
             UniqueCount = 2
         ),
@@ -12763,6 +12952,15 @@ unnamed TTransportedInfantryCatalogEntries
             ]
             UniqueCount = 2
         ),
+        TTransportedInfantryEntry (
+            Count = 2
+            Identifier = "DCA_ZU_23_2_UKR"
+            Meshes = [
+                $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko,
+                $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko,
+            ]
+            UniqueCount = 2
+        ),
         TTransportedInfantryEntry
         (
             Count = 2
@@ -13942,6 +14140,15 @@ unnamed TTransportedInfantryCatalogEntries
             [
                 $/GFX/DepictionResources/MeshDescriptor_Servant_G_SOV,
                 $/GFX/DepictionResources/MeshDescriptor_Servant_D_SOV,
+            ]
+            UniqueCount = 2
+        ),
+        TTransportedInfantryEntry (
+            Count = 2
+            Identifier = "Howz_D20_152mm_UKR"
+            Meshes = [
+                $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko,
+                $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko,
             ]
             UniqueCount = 2
         ),
@@ -15610,6 +15817,15 @@ unnamed TTransportedInfantryCatalogEntries
             ]
             UniqueCount = 2
         ),
+        TTransportedInfantryEntry (
+            Count = 2
+            Identifier = "Mortier_2B14_82mm_UKR"
+            Meshes = [
+                $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko,
+                $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko,
+            ]
+            UniqueCount = 2
+        ),
         TTransportedInfantryEntry
         (
             Count = 2
@@ -15706,6 +15922,15 @@ unnamed TTransportedInfantryCatalogEntries
             [
                 $/GFX/DepictionResources/MeshDescriptor_Servant_G_SOV,
                 $/GFX/DepictionResources/MeshDescriptor_Servant_D_SOV,
+            ]
+            UniqueCount = 2
+        ),
+        TTransportedInfantryEntry (
+            Count = 2
+            Identifier = "Mortier_2S12_120mm_UKR"
+            Meshes = [
+                $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko,
+                $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko,
             ]
             UniqueCount = 2
         ),

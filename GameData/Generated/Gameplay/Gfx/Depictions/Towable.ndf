@@ -1055,3 +1055,43 @@ unnamed TTowedUnitCatalogEntry
     MeshLow  = $/GFX/DepictionResources/Modele_Obusier_155mm_mle1950_FR_LOW
     InitialPose = TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_Obusier_155mm_mle1950_FR Angle = 0.3490658503988659 )
 )
+unnamed TTowedUnitCatalogEntry (
+    Catalog = $/DepictionCore/TowedUnitCatalog
+    Identifier = "Howz_D20_152mm_UKR"
+    MeshHigh = $/GFX/DepictionResources/Modele_Howz_D20_152mm_UKR
+    MeshMid  = $/GFX/DepictionResources/Modele_Howz_D20_152mm_UKR_MID
+    MeshLow  = $/GFX/DepictionResources/Modele_Howz_D20_152mm_UKR_LOW
+    InitialPose = TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_Howz_D20_152mm_UKR Angle = 0.5235987755982988 )
+)
+unnamed TTowedUnitCatalogEntry (
+    Catalog = $/DepictionCore/TowedUnitCatalog
+    Identifier = "DCA_ZU_23_2_UKR"
+    MeshHigh = $/GFX/DepictionResources/Modele_DCA_ZU_23_2_UKR
+    MeshMid  = $/GFX/DepictionResources/Modele_DCA_ZU_23_2_UKR_MID
+    MeshLow  = $/GFX/DepictionResources/Modele_DCA_ZU_23_2_UKR_LOW
+    InitialPose = TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_ZU_23_2_UKR Angle = 0.0 )
+)
+unnamed TTowedUnitCatalogEntry (
+    Catalog = $/DepictionCore/TowedUnitCatalog
+    Identifier = "AT_T12A_UKR"
+    MeshHigh = $/GFX/DepictionResources/Modele_AT_T12A_UKR
+    MeshMid  = $/GFX/DepictionResources/Modele_AT_T12A_UKR_MID
+    MeshLow  = $/GFX/DepictionResources/Modele_AT_T12A_UKR_LOW
+    InitialPose = TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_AT_T12A_UKR Angle = 0.5235987755982988 )
+)
+unnamed TTowedUnitCatalogEntry (
+    Catalog = $/DepictionCore/TowedUnitCatalog
+    Identifier = "AT_MT12K_Rapira_UKR"
+    MeshHigh = $/GFX/DepictionResources/Modele_AT_MT12K_Rapira_UKR
+    MeshMid  = $/GFX/DepictionResources/Modele_AT_MT12K_Rapira_UKR_MID
+    MeshLow  = $/GFX/DepictionResources/Modele_AT_MT12K_Rapira_UKR_LOW
+    InitialPose = TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_AT_MT12K_Rapira_UKR Angle = 0.5235987755982988 )
+)
+unnamed TTowedUnitCatalogEntry (
+    Catalog = $/DepictionCore/TowedUnitCatalog
+    Identifier = "AT_MT12R_Ruta_UKR"
+    MeshHigh = $/GFX/DepictionResources/Modele_AT_MT12R_Ruta_UKR
+    MeshMid  = $/GFX/DepictionResources/Modele_AT_MT12R_Ruta_UKR_MID
+    MeshLow  = $/GFX/DepictionResources/Modele_AT_MT12R_Ruta_UKR_LOW
+    InitialPose = TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_AT_MT12R_Ruta_UKR Angle = 0.5235987755982988 )
+)

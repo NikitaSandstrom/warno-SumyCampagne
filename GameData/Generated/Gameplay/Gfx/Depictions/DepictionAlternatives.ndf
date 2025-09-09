@@ -10266,6 +10266,11 @@ Alternatives_MTLB_trans_UKR is [
     DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_MTLB_trans_UKR_MID ),
     DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_MTLB_trans_UKR_LOW ),
 ]
+Alternatives_MTLB_supply_UKR is [
+    DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_MTLB_supply_UKR ),
+    DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_MTLB_supply_UKR_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_MTLB_supply_UKR_LOW ),
+]
 Alternatives_Ural_4320_trans_UKR is [
     DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_Ural_4320_trans_UKR ),
     DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_Ural_4320_trans_UKR_MID ),
@@ -10335,6 +10340,12 @@ Alternatives_T64BV_UKR is [
     DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_T64BV_UKR_LOW ),
 ]
 
+Alternatives_DCA_ZU_23_2_UKR is [
+    DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_DCA_ZU_23_2_UKR ),
+    DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_DCA_ZU_23_2_UKR_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_DCA_ZU_23_2_UKR_LOW ),
+]
+
 Alternatives_ZSU_23_4_M1_UKR is [
     DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_ZSU_23_4_M1_UKR ),
     DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_ZSU_23_4_M1_UKR_MID ),
@@ -10345,4 +10356,51 @@ Alternatives_MTLB_Strela10_UKR is [
     DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_MTLB_Strela10_UKR ),
     DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_MTLB_Strela10_UKR_MID ),
     DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_MTLB_Strela10_UKR_LOW ),
+]
+
+Alternatives_Mortier_2B14_82mm_UKR is [
+    DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_Mortier_2B14_82mm_UKR ),
+    DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_Mortier_2B14_82mm_UKR_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_Mortier_2B14_82mm_UKR_LOW ),
+]
+Alternatives_Mortier_2S12_120mm_UKR is [
+    DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_Mortier_2S12_120mm_UKR ),
+    DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_Mortier_2S12_120mm_UKR_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_Mortier_2S12_120mm_UKR_LOW ),
+]
+
+Alternatives_Howz_D20_152mm_UKR is [
+    DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_Howz_D20_152mm_UKR ),
+    DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_Howz_D20_152mm_UKR_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_Howz_D20_152mm_UKR_LOW ),
+]
+
+Alternatives_ATteam_RCL_SPG9_UKR is [
+    DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_ATteam_RCL_SPG9_UKR ),
+    DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_ATteam_RCL_SPG9_UKR_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_ATteam_RCL_SPG9_UKR_LOW ),
+]
+
+Alternatives_AT_T12A_UKR is [
+    DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_AT_T12A_UKR ),
+    DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_AT_T12A_UKR_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_AT_T12A_UKR_LOW ),
+]
+
+Alternatives_AT_MT12K_Rapira_UKR is [
+    DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_AT_MT12K_Rapira_UKR ),
+    DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_AT_MT12K_Rapira_UKR_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_AT_MT12K_Rapira_UKR_LOW ),
+]
+
+Alternatives_AT_MT12R_Ruta_UKR is [
+    DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_AT_MT12R_Ruta_UKR ),
+    DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_AT_MT12R_Ruta_UKR_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_AT_MT12R_Ruta_UKR_LOW ),
+]
+
+Alternatives_2S1_UKR is [
+    DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_2S1_UKR ),
+    DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_2S1_UKR_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_2S1_UKR_LOW ),
 ]

@@ -63885,6 +63885,29 @@ TacticDepiction_MTLB_trans_UKR is TacticVehicleDepictionDesc (
     ]
 )
 
+TacticDepiction_MTLB_supply_UKR is TacticVehicleDepictionDesc (
+    CoatingName = 'MTLB_supply_UKR'
+    Selector = SpecificVehicleDepictionSelector
+    Alternatives = Alternatives_MTLB_supply_UKR
+
+    Operators = [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_MTLB,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_SmallTank,
+        DepictionOperator_Propulsion_ContinuousTrack,
+        DepictionOperator_MovementFX_Amphibious,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[]
+        + DepictionAction_Stress_And_Wrecked
+        + DepictionAction_MovementFX_Tracked
+        + DepictionAction_CriticalFX_Tank
+        + DepictionAction_FX_Amphibious_NoPropulsion
+)
+
 TacticDepiction_Ural_4320_trans_UKR is TacticVehicleDepictionDesc (
     CoatingName = 'Ural_4320_trans_UKR'
     Selector = SpecificVehicleDepictionSelector
@@ -63907,6 +63930,7 @@ TacticDepiction_Ural_4320_trans_UKR is TacticVehicleDepictionDesc (
             + DepictionAction_CriticalFX_Tank
 
     SubDepictions = []
+            + HumanSubDepictions_Ural_4320_trans_UKR
 
     SubDepictionGenerators = [
         TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_Ural_4320_trans_UKR),
@@ -63934,6 +63958,9 @@ TacticDepiction_Ural_4320_UKR is TacticVehicleDepictionDesc (
             + DepictionAction_Stress_And_Wrecked
             + DepictionAction_MovementFX_Wheeled
             + DepictionAction_CriticalFX_Tank
+
+    SubDepictions = []
+            + HumanSubDepictions_Ural_4320_UKR
 )
 
 TacticDepiction_UAZ_3151_UKR is TacticVehicleDepictionDesc (
@@ -64518,6 +64545,40 @@ TacticDepiction_T64BV_UKR is TacticVehicleDepictionDesc (
     ]
 )
 
+DepictionOperator_DCA_ZU_23_2_UKR_Weapon1 is DepictionOperator_WeaponContinuousFire (
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01", "fx_tourelle1_tir_02"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
+    NbFX = 2
+)
+TacticDepiction_DCA_ZU_23_2_UKR is TacticVehicleDepictionDesc (
+    CoatingName = 'DCA_ZU_23_2_UKR'
+    Selector = SpecificVehicleDepictionSelector
+    Alternatives = Alternatives_DCA_ZU_23_2_UKR
+
+    Operators = [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_Crew_SOVIET,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        $/GFX/Sound/DepictionOperator_TurretSound_ST_LARS,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_DCA_ZU_23_2_UKR_Weapon1,
+        DepictionOperator_Propulsion_Wheels_Canon,
+        DepictionOperator_Carriable_Canon_NoArms,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+        ( "weapon_effet_tag1", Weapon_DCA_2_canon_ZU23_2_23mm_TOWED ),
+    ]
+    + DepictionAction_CriticalFX_Towed
+
+    SubDepictions = [] + HumanSubDepictions_DCA_ZU_23_2_UKR
+)
+
 DepictionOperator_ZSU_23_4_M1_UKR_Weapon1 is DepictionOperator_WeaponContinuousFire (
     FireEffectTag = "weapon_effet_tag1"
     Anchors = ["fx_tourelle1_tir_01", "fx_tourelle1_tir_02", "fx_tourelle1_tir_03", "fx_tourelle1_tir_04"]
@@ -64594,6 +64655,346 @@ TacticDepiction_MTLB_Strela10_UKR is TacticVehicleDepictionDesc (
         + DepictionAction_MovementFX_Tracked
         + DepictionAction_CriticalFX_Tank
         + DepictionAction_FX_Amphibious_NoPropulsion
+)
+
+DepictionOperator_Mortier_2B14_82mm_UKR_Weapon1 is DepictionOperator_WeaponInstantFire (
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_1']
+    NbProj = 1
+)
+DepictionOperator_Mortier_2B14_82mm_UKR_Weapon2 is DepictionOperator_WeaponInstantFire (
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_2']
+    NbProj = 1
+)
+TacticDepiction_Mortier_2B14_82mm_UKR is TacticVehicleDepictionDesc (
+    CoatingName = 'Mortier_2B14_82mm_UKR'
+    Selector = SpecificVehicleDepictionSelector
+    Alternatives = Alternatives_Mortier_2B14_82mm_UKR
+
+    Operators = [
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_Crew_SOVIET,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Mortier_2B14_82mm_UKR_Weapon1,
+        DepictionOperator_Mortier_2B14_82mm_UKR_Weapon2,
+        DepictionOperator_Carriable_Mortar,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP [
+        ( "weapon_effet_tag1", Weapon_Mortier_2B14_82mm_TOWED ),
+        ( "weapon_effet_tag2", Weapon_Mortier_2B14_82mm_SMOKE_TOWED ),
+    ]
+    + DepictionAction_CriticalFX_Mortar
+
+    SubDepictions = [] + HumanSubDepictions_Mortier_2B14_82mm_UKR
+)
+DepictionOperator_Mortier_2S12_120mm_UKR_Weapon1 is DepictionOperator_WeaponInstantFire (
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_1']
+    NbProj = 1
+)
+DepictionOperator_Mortier_2S12_120mm_UKR_Weapon2 is DepictionOperator_WeaponInstantFire (
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_2']
+    NbProj = 1
+)
+TacticDepiction_Mortier_2S12_120mm_UKR is TacticVehicleDepictionDesc (
+    CoatingName = 'Mortier_2S12_120mm_UKR'
+    Selector = SpecificVehicleDepictionSelector
+    Alternatives = Alternatives_Mortier_2S12_120mm_UKR
+
+    Operators = [
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_Crew_SOVIET,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Mortier_2S12_120mm_UKR_Weapon1,
+        DepictionOperator_Mortier_2S12_120mm_UKR_Weapon2,
+        DepictionOperator_Carriable_Mortar,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP [
+        ( "weapon_effet_tag1", Weapon_Mortier_2S12_120mm ),
+        ( "weapon_effet_tag2", Weapon_Mortier_2S12_120mm_SMOKE ),
+    ]
+    + DepictionAction_CriticalFX_Mortar
+
+    SubDepictions = [] + HumanSubDepictions_Mortier_2S12_120mm_UKR
+)
+
+DepictionOperator_Howz_D20_152mm_UKR_Weapon1 is DepictionOperator_WeaponInstantFire (
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_1']
+    NbProj = 1
+)
+DepictionOperator_Howz_D20_152mm_UKR_Weapon2 is DepictionOperator_WeaponInstantFire (
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_2']
+    NbProj = 1
+)
+TacticDepiction_Howz_D20_152mm_UKR is TacticVehicleDepictionDesc (
+    CoatingName = 'Howz_D20_152mm_UKR'
+    Selector = SpecificVehicleDepictionSelector
+    Alternatives = Alternatives_Howz_D20_152mm_UKR
+
+    Operators = [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_Crew_SOVIET,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Howz_D20_152mm_UKR_Weapon1,
+        DepictionOperator_Howz_D20_152mm_UKR_Weapon2,
+        DepictionOperator_Propulsion_Wheels_Canon,
+        DepictionOperator_Carriable_Canon_Arms30,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP [
+        ( "weapon_effet_tag1", Weapon_Howz_Canon_D20_Howitzer_152mm ),
+        ( "weapon_effet_tag2", Weapon_Howz_Canon_D20_Howitzer_152mm_SMOKE ),
+    ]
+    + DepictionAction_CriticalFX_Towed
+
+    SubDepictions = [] + HumanSubDepictions_Howz_D20_152mm_UKR
+)
+
+DepictionOperator_ATteam_RCL_SPG9_UKR_Weapon1 is DepictionOperator_WeaponInstantFire (
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_1']
+    NbProj = 1
+)
+DepictionOperator_ATteam_RCL_SPG9_UKR_Weapon2 is DepictionOperator_WeaponInstantFire (
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_2']
+    NbProj = 1
+)
+TacticDepiction_ATteam_RCL_SPG9_UKR is TacticVehicleDepictionDesc (
+    CoatingName = 'ATteam_RCL_SPG9_UKR'
+    Selector = SpecificVehicleDepictionSelector
+    Alternatives = Alternatives_ATteam_RCL_SPG9_UKR
+
+    Operators = [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_SOVIET,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_ATteam_RCL_SPG9_UKR_Weapon1,
+        DepictionOperator_ATteam_RCL_SPG9_UKR_Weapon2,
+        DepictionOperator_Carriable_ATGM,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP [
+        ( "weapon_effet_tag1", Weapon_Canon_HEAT_73_mm_SPG9_TOWED ),
+        ( "weapon_effet_tag2", Weapon_Canon_HE_73_mm_SPG9_TOWED ),
+    ]
+    + DepictionAction_CriticalFX_ATGM
+
+    SubDepictions = [] + HumanSubDepictions_ATteam_RCL_SPG9_UKR
+)
+DepictionOperator_AT_T12A_UKR_Weapon1 is DepictionOperator_WeaponInstantFire (
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_1']
+    NbProj = 1
+)
+DepictionOperator_AT_T12A_UKR_Weapon2 is DepictionOperator_WeaponInstantFire (
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_2']
+    NbProj = 1
+)
+TacticDepiction_AT_T12A_UKR is TacticVehicleDepictionDesc (
+    CoatingName = 'AT_T12A_UKR'
+    Selector = SpecificVehicleDepictionSelector
+    Alternatives = Alternatives_AT_T12A_UKR
+
+    Operators = [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_Crew_SOVIET,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_AT_MT12R_Ruta_UKR_Weapon1,
+        DepictionOperator_AT_MT12R_Ruta_UKR_Weapon2,
+        DepictionOperator_Propulsion_Wheels_Canon,
+        DepictionOperator_Carriable_Canon_Arms30,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+        ( "weapon_effet_tag1", Weapon_Canon_AP_100mm_2A29_Rapira ),
+        ( "weapon_effet_tag2", Weapon_Canon_HE_100mm_2A29_Rapira ),
+    ]
+    + DepictionAction_CriticalFX_Towed
+
+    SubDepictions = [] + HumanSubDepictions_AT_T12A_UKR
+)
+DepictionOperator_AT_MT12K_Rapira_UKR_Weapon1 is DepictionOperator_WeaponInstantFire (
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_1']
+    NbProj = 1
+)
+DepictionOperator_AT_MT12K_Rapira_UKR_Weapon2 is DepictionOperator_WeaponInstantFire (
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_2']
+    NbProj = 1
+)
+DepictionOperator_AT_MT12K_Rapira_UKR_Weapon3 is DepictionOperator_WeaponMissileCarriageFire (
+    FireEffectTag = "weapon_effet_tag3"
+    Connoisseur = MissileCarriage_AT_T12_Rapira_SOV
+    WeaponIndex = 1
+    WeaponShootDataPropertyName = ['WeaponShootData_0_3']
+    NbProj = 1
+)
+TacticDepiction_AT_MT12K_Rapira_UKR is TacticVehicleDepictionDesc (
+    CoatingName = 'AT_MT12K_Rapira_UKR'
+    Selector = SpecificVehicleDepictionSelector
+    Alternatives = Alternatives_AT_MT12K_Rapira_UKR
+
+    Operators = [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_Crew_SOVIET,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_AT_MT12K_Rapira_UKR_Weapon1,
+        DepictionOperator_AT_MT12K_Rapira_UKR_Weapon2,
+        DepictionOperator_AT_MT12K_Rapira_UKR_Weapon3,
+        DepictionOperator_Propulsion_Wheels_Canon,
+        DepictionOperator_Carriable_Canon_Arms30,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+        ( "weapon_effet_tag1", Weapon_Canon_AP_100mm_2A29_Rapira ),
+        ( "weapon_effet_tag2", Weapon_Canon_HE_100mm_2A29_Rapira ),
+        ( "weapon_effet_tag3", Weapon_ATGM_9M117_Bastion ),
+    ]
+    + DepictionAction_CriticalFX_Towed
+
+    SubDepictions = [] + HumanSubDepictions_AT_MT12K_Rapira_UKR
+)
+DepictionOperator_AT_MT12R_Ruta_UKR_Weapon1 is DepictionOperator_WeaponInstantFire (
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_1']
+    NbProj = 1
+)
+DepictionOperator_AT_MT12R_Ruta_UKR_Weapon2 is DepictionOperator_WeaponInstantFire (
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_2']
+    NbProj = 1
+)
+DepictionOperator_AT_MT12R_Ruta_UKR_Weapon3 is DepictionOperator_WeaponMissileCarriageFire (
+    FireEffectTag = "weapon_effet_tag3"
+    Connoisseur = MissileCarriage_AT_T12_Rapira_SOV
+    WeaponIndex = 1
+    WeaponShootDataPropertyName = ['WeaponShootData_0_3']
+    NbProj = 1
+)
+TacticDepiction_AT_MT12R_Ruta_UKR is TacticVehicleDepictionDesc (
+    CoatingName = 'AT_MT12R_Ruta_UKR'
+    Selector = SpecificVehicleDepictionSelector
+    Alternatives = Alternatives_AT_MT12R_Ruta_UKR
+
+    Operators = [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_Crew_SOVIET,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_AT_MT12R_Ruta_UKR_Weapon1,
+        DepictionOperator_AT_MT12R_Ruta_UKR_Weapon2,
+        DepictionOperator_AT_MT12R_Ruta_UKR_Weapon3,
+        DepictionOperator_Propulsion_Wheels_Canon,
+        DepictionOperator_Carriable_Canon_Arms30,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+        ( "weapon_effet_tag1", Weapon_Canon_AP_100mm_2A29_Rapira ),
+        ( "weapon_effet_tag2", Weapon_Canon_HE_100mm_2A29_Rapira ),
+        ( "weapon_effet_tag3", Weapon_ATGM_9M117_Bastion ),
+    ]
+    + DepictionAction_CriticalFX_Towed
+
+    SubDepictions = [] + HumanSubDepictions_AT_MT12R_Ruta_UKR
+)
+
+DepictionOperator_2S1_UKR_Weapon1 is DepictionOperator_WeaponInstantFire (
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_1']
+    NbProj = 1
+)
+DepictionOperator_2S1_UKR_Weapon2 is DepictionOperator_WeaponInstantFire (
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_2']
+    NbProj = 1
+)
+DepictionOperator_2S1_UKR_Weapon3 is DepictionOperator_WeaponInstantFire (
+    FireEffectTag = "weapon_effet_tag3"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_3']
+    NbProj = 1
+)
+TacticDepiction_2S1_UKR is TacticVehicleDepictionDesc (
+    CoatingName = '2S1_UKR'
+    Selector = SpecificVehicleDepictionSelector
+    Alternatives = Alternatives_2S1_UKR
+
+    Operators = [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_MTLB,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_MediumTank,
+        DepictionOperator_Propulsion_ContinuousTrack,
+        DepictionOperator_Turret_1_Aim,
+        $/GFX/Sound/DepictionOperator_TurretSound_ST_Artillerie_US,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_2S1_UKR_Weapon1,
+        DepictionOperator_2S1_UKR_Weapon2,
+        DepictionOperator_2S1_UKR_Weapon3,
+        DepictionOperator_MovementFX_Amphibious,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP [
+        ( "weapon_effet_tag1", Weapon_Howz_Canon_2A18_Howitzer_122mm ),
+        ( "weapon_effet_tag2", Weapon_Howz_Canon_2A18_Howitzer_122mm_SMOKE ),
+        ( "weapon_effet_tag3", Weapon_Canon_AP_2A18_122mm ),
+    ]
+    + DepictionAction_Stress_And_Wrecked
+    + DepictionAction_MovementFX_Tracked
+    + DepictionAction_CriticalFX_Tank
+    + DepictionAction_FX_Amphibious_NoPropulsion
 )
 
 
@@ -65823,6 +66224,7 @@ unnamed TMimeticUnitRegistration
         ( 'GAZ_66_UKR', TacticDepiction_GAZ_66_UKR ),
         ( 'GAZ_66_kom_UKR', TacticDepiction_GAZ_66_kom_UKR ),
         ( 'MTLB_trans_UKR', TacticDepiction_MTLB_trans_UKR ),
+        ( 'MTLB_supply_UKR', TacticDepiction_MTLB_supply_UKR ),
         ( 'Ural_4320_trans_UKR', TacticDepiction_Ural_4320_trans_UKR ),
         ( 'Ural_4320_UKR', TacticDepiction_Ural_4320_UKR ),
         ( 'UAZ_3151_kom_UKR', TacticDepiction_UAZ_3151_kom_UKR ),
@@ -65836,7 +66238,16 @@ unnamed TMimeticUnitRegistration
         ( 'BTR_60_kom_UKR', TacticDepiction_BTR_60_kom_UKR ),
         ( 'T64BV_CMD_UKR', TacticDepiction_T64BV_CMD_UKR ),
         ( 'T64BV_UKR', TacticDepiction_T64BV_UKR ),
+        ( 'DCA_ZU_23_2_UKR', TacticDepiction_DCA_ZU_23_2_UKR ),
         ( 'ZSU_23_4_M1_UKR', TacticDepiction_ZSU_23_4_M1_UKR ),
         ( 'MTLB_Strela10_UKR', TacticDepiction_MTLB_Strela10_UKR ),
+        ( 'Mortier_2B14_82mm_UKR', TacticDepiction_Mortier_2B14_82mm_UKR ),
+        ( 'Mortier_2S12_120mm_UKR', TacticDepiction_Mortier_2S12_120mm_UKR ),
+        ( 'Howz_D20_152mm_UKR', TacticDepiction_Howz_D20_152mm_UKR ),
+        ( 'ATteam_RCL_SPG9_UKR', TacticDepiction_ATteam_RCL_SPG9_UKR ),
+        ( 'AT_T12A_UKR', TacticDepiction_AT_T12A_UKR ),
+        ( 'AT_MT12K_Rapira_UKR', TacticDepiction_AT_MT12K_Rapira_UKR ),
+        ( 'AT_MT12R_Ruta_UKR', TacticDepiction_AT_MT12R_Ruta_UKR ),
+        ( '2S1_UKR', TacticDepiction_2S1_UKR ),
     ]
 )

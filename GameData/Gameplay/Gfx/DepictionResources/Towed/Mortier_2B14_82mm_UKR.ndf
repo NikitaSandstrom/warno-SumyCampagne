@@ -1,0 +1,11 @@
+export Modele_Mortier_2B14_82mm_UKR is TResourceMesh (
+    Mesh = "GameData:/Assets/3D/Units/URSS/Canon/Mortier_2B14_82mm/Mortier_2B14_82mm.fbx"
+)
+
+export Modele_Mortier_2B14_82mm_UKR_MID is TResourceMesh (
+   Mesh = "GameData:/Assets/3D/Units/URSS/Canon/Mortier_2B14_82mm_MID/Mortier_2B14_82mm_MID.fbx"
+)
+
+export Modele_Mortier_2B14_82mm_UKR_LOW is TResourceMesh (
+    Mesh = "GameData:/Assets/3D/Units/URSS/Canon/Mortier_2B14_82mm_LOW/Mortier_2B14_82mm_LOW.fbx"
+)

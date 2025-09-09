@@ -6098,6 +6098,10 @@ GhostDepiction_MTLB_trans_UKR is GhostVehicleDepictionDesc (
     Alternatives = Alternatives_MTLB_trans_UKR
     Selector = SpecificVehicleDepictionSelector
 )
+GhostDepiction_MTLB_supply_UKR is GhostVehicleDepictionDesc (
+    Alternatives = Alternatives_MTLB_supply_UKR
+    Selector = SpecificVehicleDepictionSelector
+)
 GhostDepiction_Ural_4320_trans_UKR is GhostVehicleDepictionDesc (
     Alternatives = Alternatives_Ural_4320_trans_UKR
     Selector = SpecificVehicleDepictionSelector
@@ -6150,11 +6154,47 @@ GhostDepiction_T64BV_UKR is GhostVehicleDepictionDesc (
     Alternatives = Alternatives_T64BV_UKR
     Selector = SpecificVehicleDepictionSelector
 )
+GhostDepiction_DCA_ZU_23_2_UKR is GhostVehicleDepictionDesc (
+    Alternatives = Alternatives_DCA_ZU_23_2_UKR
+    Selector = SpecificVehicleDepictionSelector
+)
 GhostDepiction_ZSU_23_4_M1_UKR is GhostVehicleDepictionDesc (
     Alternatives = Alternatives_ZSU_23_4_M1_UKR
     Selector = SpecificVehicleDepictionSelector
 )
 GhostDepiction_MTLB_Strela10_UKR is GhostVehicleDepictionDesc (
     Alternatives = Alternatives_MTLB_Strela10_UKR
+    Selector = SpecificVehicleDepictionSelector
+)
+GhostDepiction_Mortier_2B14_82mm_UKR is GhostVehicleDepictionDesc (
+    Alternatives = Alternatives_Mortier_2B14_82mm_UKR
+    Selector = SpecificVehicleDepictionSelector
+)
+GhostDepiction_Mortier_2S12_120mm_UKR is GhostVehicleDepictionDesc (
+    Alternatives = Alternatives_Mortier_2S12_120mm_UKR
+    Selector = SpecificVehicleDepictionSelector
+)
+GhostDepiction_Howz_D20_152mm_UKR is GhostVehicleDepictionDesc (
+    Alternatives = Alternatives_Howz_D20_152mm_UKR
+    Selector = SpecificVehicleDepictionSelector
+)
+GhostDepiction_ATteam_RCL_SPG9_UKR is GhostVehicleDepictionDesc (
+    Alternatives = Alternatives_ATteam_RCL_SPG9_UKR
+    Selector = SpecificVehicleDepictionSelector
+)
+GhostDepiction_AT_T12A_UKR is GhostVehicleDepictionDesc (
+    Alternatives = Alternatives_AT_T12A_UKR
+    Selector = SpecificVehicleDepictionSelector
+)
+GhostDepiction_AT_MT12K_Rapira_UKR is GhostVehicleDepictionDesc (
+    Alternatives = Alternatives_AT_MT12K_Rapira_UKR
+    Selector = SpecificVehicleDepictionSelector
+)
+GhostDepiction_AT_MT12R_Ruta_UKR is GhostVehicleDepictionDesc (
+    Alternatives = Alternatives_AT_MT12R_Ruta_UKR
+    Selector = SpecificVehicleDepictionSelector
+)
+GhostDepiction_2S1_UKR is GhostVehicleDepictionDesc (
+    Alternatives = Alternatives_2S1_UKR
     Selector = SpecificVehicleDepictionSelector
 )

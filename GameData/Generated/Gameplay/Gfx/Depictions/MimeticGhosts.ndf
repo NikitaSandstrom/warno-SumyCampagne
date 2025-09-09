@@ -1718,6 +1718,7 @@ unnamed TMimeticGhostRegistration
         ( 'GAZ_66_UKR', GhostDepiction_GAZ_66_UKR ),
         ( 'GAZ_66_kom_UKR', GhostDepiction_GAZ_66_kom_UKR ),
         ( 'MTLB_trans_UKR', GhostDepiction_MTLB_trans_UKR ),
+        ( 'MTLB_supply_UKR', GhostDepiction_MTLB_supply_UKR ),
         ( 'Ural_4320_trans_UKR', GhostDepiction_Ural_4320_trans_UKR ),
         ( 'Ural_4320_UKR', GhostDepiction_Ural_4320_UKR ),
         ( 'UAZ_3151_kom_UKR', GhostDepiction_UAZ_3151_kom_UKR ),
@@ -1731,8 +1732,17 @@ unnamed TMimeticGhostRegistration
         ( 'BTR_60_kom_UKR', GhostDepiction_BTR_60_kom_UKR ),
         ( 'T64BV_CMD_UKR', GhostDepiction_T64BV_CMD_UKR ),
         ( 'T64BV_UKR', GhostDepiction_T64BV_UKR ),
+        ( 'DCA_ZU_23_2_UKR', GhostDepiction_DCA_ZU_23_2_UKR ),
         ( 'ZSU_23_4_M1_UKR', GhostDepiction_ZSU_23_4_M1_UKR ),
         ( 'MTLB_Strela10_UKR', GhostDepiction_MTLB_Strela10_UKR ),
+        ('showroom_Mortier_2B14_82mm_UKR', Gfx_Mortier_2B14_82mm_UKR_Showroom),
+        ( 'Mortier_2S12_120mm_UKR', GhostDepiction_Mortier_2S12_120mm_UKR ),
+        ( 'Howz_D20_152mm_UKR', GhostDepiction_Howz_D20_152mm_UKR ),
+        ( 'ATteam_RCL_SPG9_UKR', GhostDepiction_ATteam_RCL_SPG9_UKR ),
+        ( 'AT_T12A_UKR', GhostDepiction_AT_T12A_UKR ),
+        ( 'AT_MT12K_Rapira_UKR', GhostDepiction_AT_MT12K_Rapira_UKR ),
+        ( 'AT_MT12R_Ruta_UKR', GhostDepiction_AT_MT12R_Ruta_UKR ),
+        ( '2S1_UKR', GhostDepiction_2S1_UKR ),
     ]
 )
 
