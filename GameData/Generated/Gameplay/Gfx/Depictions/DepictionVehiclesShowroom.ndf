@@ -9433,6 +9433,12 @@ Gfx_MTLB_Strela10_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Selector = SpecificVehicleDepictionSelector
 )
 
+Gfx_HMGteam_AGS17_UKR_Showroom is ShowroomVehicleDepictionDesc (
+    Alternatives = Alternatives_HMGteam_AGS17_UKR
+    Selector = SpecificVehicleDepictionSelector
+    SubDepictions = HumanSubDepictionsShowroom_HMGteam_AGS17_UKR
+)
+
 Gfx_Mortier_2B14_82mm_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_Mortier_2B14_82mm_UKR
     Selector = SpecificVehicleDepictionSelector
@@ -9453,6 +9459,16 @@ Gfx_ATteam_RCL_SPG9_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_ATteam_RCL_SPG9_UKR
     Selector = SpecificVehicleDepictionSelector
     SubDepictions = HumanSubDepictionsShowroom_ATteam_RCL_SPG9_UKR
+)
+Gfx_ATteam_Fagot_UKR_Showroom is ShowroomVehicleDepictionDesc (
+    Alternatives = Alternatives_ATteam_Fagot_UKR
+    Selector = SpecificVehicleDepictionSelector
+    SubDepictions = HumanSubDepictionsShowroom_ATteam_Fagot_UKR
+)
+Gfx_ATteam_Konkurs_UKR_Showroom is ShowroomVehicleDepictionDesc (
+    Alternatives = Alternatives_ATteam_Konkurs_UKR
+    Selector = SpecificVehicleDepictionSelector
+    SubDepictions = HumanSubDepictionsShowroom_ATteam_Konkurs_UKR
 )
 Gfx_AT_T12A_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_AT_T12A_UKR
@@ -10715,10 +10731,13 @@ unnamed TMimeticUnitRegistration (
         ('showroom_DCA_ZU_23_2_UKR', Gfx_DCA_ZU_23_2_UKR_Showroom),
         ('showroom_ZSU_23_4_M1_UKR', Gfx_ZSU_23_4_M1_UKR_Showroom),
         ('showroom_MTLB_Strela10_UKR', Gfx_MTLB_Strela10_UKR_Showroom),
+        ('showroom_HMGteam_AGS17_UKR', Gfx_HMGteam_AGS17_UKR_Showroom),
         ('showroom_Mortier_2B14_82mm_UKR', Gfx_Mortier_2B14_82mm_UKR_Showroom),
         ('showroom_Mortier_2S12_120mm_UKR', Gfx_Mortier_2S12_120mm_UKR_Showroom),
         ('showroom_Howz_D20_152mm_UKR', Gfx_Howz_D20_152mm_UKR_Showroom),
         ('showroom_ATteam_RCL_SPG9_UKR', Gfx_ATteam_RCL_SPG9_UKR_Showroom),
+        ('showroom_ATteam_Fagot_UKR', Gfx_ATteam_Fagot_UKR_Showroom),
+        ('showroom_ATteam_Konkurs_UKR', Gfx_ATteam_Konkurs_UKR_Showroom),
         ('showroom_AT_T12A_UKR', Gfx_AT_T12A_UKR_Showroom),
         ('showroom_AT_MT12K_Rapira_UKR', Gfx_AT_MT12K_Rapira_UKR_Showroom),
         ('showroom_AT_MT12R_Ruta_UKR', Gfx_AT_MT12R_Ruta_UKR_Showroom),

@@ -10358,6 +10358,12 @@ Alternatives_MTLB_Strela10_UKR is [
     DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_MTLB_Strela10_UKR_LOW ),
 ]
 
+Alternatives_HMGteam_AGS17_UKR is [
+    DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_HMGteam_AGS17_UKR ),
+    DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_HMGteam_AGS17_UKR_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_HMGteam_AGS17_UKR_LOW ),
+]
+
 Alternatives_Mortier_2B14_82mm_UKR is [
     DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_Mortier_2B14_82mm_UKR ),
     DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_Mortier_2B14_82mm_UKR_MID ),
@@ -10379,6 +10385,18 @@ Alternatives_ATteam_RCL_SPG9_UKR is [
     DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_ATteam_RCL_SPG9_UKR ),
     DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_ATteam_RCL_SPG9_UKR_MID ),
     DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_ATteam_RCL_SPG9_UKR_LOW ),
+]
+
+Alternatives_ATteam_Fagot_UKR is [
+    DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_ATteam_Fagot_UKR ),
+    DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_ATteam_Fagot_UKR_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_ATteam_Fagot_UKR_LOW ),
+]
+
+Alternatives_ATteam_Konkurs_UKR is [
+    DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_ATteam_Konkurs_UKR ),
+    DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_ATteam_Konkurs_UKR_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_ATteam_Konkurs_UKR_LOW ),
 ]
 
 Alternatives_AT_T12A_UKR is [

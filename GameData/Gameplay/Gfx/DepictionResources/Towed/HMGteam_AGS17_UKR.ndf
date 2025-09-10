@@ -1,0 +1,11 @@
+export Modele_HMGteam_AGS17_UKR is TResourceMesh (
+    Mesh= "GameData:/Assets/3D/Units/Ammo/Armes/HMG_trepied/AGS17/AGS17.fbx"
+)
+
+export Modele_HMGteam_AGS17_UKR_MID is TResourceMesh(
+    Mesh= "GameData:/Assets/3D/Units/Ammo/Armes/HMG_trepied/AGS17/AGS17.fbx"
+)
+
+export Modele_HMGteam_AGS17_UKR_LOW is TResourceMesh(
+    Mesh= "GameData:/Assets/3D/Units/Ammo/Armes/HMG_trepied/AGS17/AGS17.fbx"
+)

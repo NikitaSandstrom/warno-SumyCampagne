@@ -6166,6 +6166,10 @@ GhostDepiction_MTLB_Strela10_UKR is GhostVehicleDepictionDesc (
     Alternatives = Alternatives_MTLB_Strela10_UKR
     Selector = SpecificVehicleDepictionSelector
 )
+GhostDepiction_HMGteam_AGS17_UKR is GhostVehicleDepictionDesc (
+    Alternatives = Alternatives_HMGteam_AGS17_UKR
+    Selector = SpecificVehicleDepictionSelector
+)
 GhostDepiction_Mortier_2B14_82mm_UKR is GhostVehicleDepictionDesc (
     Alternatives = Alternatives_Mortier_2B14_82mm_UKR
     Selector = SpecificVehicleDepictionSelector
@@ -6180,6 +6184,14 @@ GhostDepiction_Howz_D20_152mm_UKR is GhostVehicleDepictionDesc (
 )
 GhostDepiction_ATteam_RCL_SPG9_UKR is GhostVehicleDepictionDesc (
     Alternatives = Alternatives_ATteam_RCL_SPG9_UKR
+    Selector = SpecificVehicleDepictionSelector
+)
+GhostDepiction_ATteam_Fagot_UKR is GhostVehicleDepictionDesc (
+    Alternatives = Alternatives_ATteam_Fagot_UKR
+    Selector = SpecificVehicleDepictionSelector
+)
+GhostDepiction_ATteam_Konkurs_UKR is GhostVehicleDepictionDesc (
+    Alternatives = Alternatives_ATteam_Konkurs_UKR
     Selector = SpecificVehicleDepictionSelector
 )
 GhostDepiction_AT_T12A_UKR is GhostVehicleDepictionDesc (

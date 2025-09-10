@@ -1,0 +1,11 @@
+export Modele_ATteam_Konkurs_UKR is TResourceMesh( 
+    Mesh="GameData:/Assets/3D/Units/URSS/Antichar/Konkurs/Konkurs.fbx"
+)
+
+export Modele_ATteam_Konkurs_UKR_MID is TResourceMesh( 
+    Mesh="GameData:/Assets/3D/Units/URSS/Antichar/Konkurs_MID/Konkurs_MID.fbx"
+)
+
+export Modele_ATteam_Konkurs_UKR_LOW is TResourceMesh( 
+    Mesh="GameData:/Assets/3D/Units/URSS/Antichar/Konkurs_LOW/Konkurs_LOW.fbx"
+)

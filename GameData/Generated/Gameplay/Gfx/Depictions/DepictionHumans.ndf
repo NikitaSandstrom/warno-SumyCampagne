@@ -10735,6 +10735,25 @@ HumanSubDepictionsShowroom_DCA_ZU_23_2_UKR is [
     ),
 ]
 
+HumanSubDepictions_HMGteam_AGS17_UKR is [
+    SubDepiction_ATGMServantLeft (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko_LOW
+    ),
+    SubDepiction_ATGMServantRight (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko_LOW
+    ),
+]
+HumanSubDepictionsShowroom_HMGteam_AGS17_UKR is [
+    ShowroomSubDepiction_ATGMServantLeft (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+    ),
+    ShowroomSubDepiction_ATGMServantRight (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+    ),
+]
+
 HumanSubDepictions_Mortier_2B14_82mm_UKR is [
     SubDepiction_ServantLeft (
         MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
@@ -10801,6 +10820,42 @@ HumanSubDepictions_ATteam_RCL_SPG9_UKR is [
     ),
 ]
 HumanSubDepictionsShowroom_ATteam_RCL_SPG9_UKR is [
+    ShowroomSubDepiction_ATGMServantLeft (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+    ),
+    ShowroomSubDepiction_ATGMServantRight (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+    ),
+]
+HumanSubDepictions_ATteam_Fagot_UKR is [
+    SubDepiction_ATGMServantLeft (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko_LOW
+    ),
+    SubDepiction_ATGMServantRight (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko_LOW
+    ),
+]
+HumanSubDepictionsShowroom_ATteam_Fagot_UKR is [
+    ShowroomSubDepiction_ATGMServantLeft (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+    ),
+    ShowroomSubDepiction_ATGMServantRight (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+    ),
+]
+HumanSubDepictions_ATteam_Konkurs_UKR is [
+    SubDepiction_ATGMServantLeft (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko_LOW
+    ),
+    SubDepiction_ATGMServantRight (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko_LOW
+    ),
+]
+HumanSubDepictionsShowroom_ATteam_Konkurs_UKR is [
     ShowroomSubDepiction_ATGMServantLeft (
         MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko
     ),
@@ -11171,6 +11226,15 @@ unnamed TTransportedInfantryCatalogEntries
             ]
             UniqueCount = 2
         ),
+        TTransportedInfantryEntry (
+            Count = 2
+            Identifier = "ATteam_Fagot_UKR"
+            Meshes = [
+                $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko,
+                $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko,
+            ]
+            UniqueCount = 2
+        ),
         TTransportedInfantryEntry
         (
             Count = 2
@@ -11245,6 +11309,15 @@ unnamed TTransportedInfantryCatalogEntries
             [
                 $/GFX/DepictionResources/MeshDescriptor_Servant_G_SOV,
                 $/GFX/DepictionResources/MeshDescriptor_Servant_D_SOV,
+            ]
+            UniqueCount = 2
+        ),
+        TTransportedInfantryEntry (
+            Count = 2
+            Identifier = "ATteam_Konkurs_UKR"
+            Meshes = [
+                $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko,
+                $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko,
             ]
             UniqueCount = 2
         ),
@@ -13382,6 +13455,15 @@ unnamed TTransportedInfantryCatalogEntries
             [
                 $/GFX/DepictionResources/MeshDescriptor_Servant_G_SOV,
                 $/GFX/DepictionResources/MeshDescriptor_Servant_D_SOV,
+            ]
+            UniqueCount = 2
+        ),
+        TTransportedInfantryEntry (
+            Count = 2
+            Identifier = "HMGteam_AGS17_UKR"
+            Meshes = [
+                $/GFX/DepictionResources/MeshDescriptor_Servant_G_TTsko,
+                $/GFX/DepictionResources/MeshDescriptor_Servant_D_TTsko,
             ]
             UniqueCount = 2
         ),

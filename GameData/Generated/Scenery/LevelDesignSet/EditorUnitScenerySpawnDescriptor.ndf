@@ -18196,3 +18196,11 @@ unnamed Template_SceneryDescriptorSpawn
     ModelResource         = $/GFX/DepictionResources/Modele_TestUnit_Building
     ThumbstackScale       = 20
 )
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'FOB_UKR'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_FOB_UKR'
+    AutoNameBase          = 'FOB_UKR'
+    ModelResource         = $/GFX/DepictionResources/Modele_TestUnit_Building
+    ThumbstackScale       = 20
+)
