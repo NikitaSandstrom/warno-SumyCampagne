@@ -9333,6 +9333,10 @@ Gfx_Kraz_6322_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_Kraz_6322
     Selector = SpecificVehicleDepictionSelector
 )
+Gfx_Kraz_6322_trans_Showroom is ShowroomVehicleDepictionDesc (
+    Alternatives = Alternatives_Kraz_6322_trans
+    Selector = SpecificVehicleDepictionSelector
+)
 Gfx_GAZ_66_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_GAZ_66_UKR
     Selector = SpecificVehicleDepictionSelector
@@ -10711,6 +10715,7 @@ unnamed TMimeticUnitRegistration (
         ('showroom_ZSU_23_Shilka_reco_SOV', Gfx_ZSU_23_Shilka_reco_SOV_Showroom),
         ('showroom_ZSU_57_2_DDR', Gfx_ZSU_57_2_DDR_Showroom),
         ('showroom_Kraz_6322', Gfx_Kraz_6322_Showroom),
+        ('showroom_Kraz_6322_trans', Gfx_Kraz_6322_trans_Showroom),
         ('showroom_GAZ_66_UKR', Gfx_GAZ_66_UKR_Showroom),
         ('showroom_GAZ_66_kom_UKR', Gfx_GAZ_66_kom_UKR_Showroom),
         ('showroom_MTLB_trans_UKR', Gfx_MTLB_trans_UKR_Showroom),

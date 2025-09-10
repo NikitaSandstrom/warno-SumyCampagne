@@ -1,0 +1,12 @@
+export Modele_Kraz_6322_trans is TResourceMesh (
+    Mesh="GameData:/Assets/3D/Units/Ukraine/Vehicule/Kraz_6322/Kraz_6322.fbx"
+)
+
+export Modele_Kraz_6322_trans_MID is TResourceMesh (
+    Mesh="GameData:/Assets/3D/Units/Ukraine/Vehicule/Kraz_6322/Kraz_6322_M.fbx"
+)
+
+export Modele_Kraz_6322_trans_LOW is TResourceMesh (
+    Mesh="GameData:/Assets/3D/Units/Ukraine/Vehicule/Kraz_6322/Kraz_6322_L.fbx"
+)
+

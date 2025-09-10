@@ -6086,6 +6086,10 @@ GhostDepiction_Kraz_6322 is GhostVehicleDepictionDesc (
     Alternatives = Alternatives_Kraz_6322
     Selector = SpecificVehicleDepictionSelector
 )
+GhostDepiction_Kraz_6322_trans is GhostVehicleDepictionDesc (
+    Alternatives = Alternatives_Kraz_6322_trans
+    Selector = SpecificVehicleDepictionSelector
+)
 GhostDepiction_GAZ_66_UKR is GhostVehicleDepictionDesc (
     Alternatives = Alternatives_GAZ_66_UKR
     Selector = SpecificVehicleDepictionSelector

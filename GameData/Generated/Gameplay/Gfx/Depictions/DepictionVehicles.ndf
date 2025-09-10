@@ -63789,6 +63789,31 @@ TacticDepiction_Kraz_6322 is TacticVehicleDepictionDesc (
             + HumanSubDepictions_Kraz_6322
 )
 
+TacticDepiction_Kraz_6322_trans is TacticVehicleDepictionDesc (
+    CoatingName = 'Kraz_6322_trans'
+    Selector = SpecificVehicleDepictionSelector
+    Alternatives = Alternatives_Kraz_6322_trans
+
+    Operators = [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Ural,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_Vehicle,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP []
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+
+    SubDepictions = []
+            + HumanSubDepictions_Kraz_6322_trans
+)
+
 TacticDepiction_GAZ_66_UKR is TacticVehicleDepictionDesc (
     CoatingName = 'GAZ_66_UKR'
     Selector = SpecificVehicleDepictionSelector
@@ -66314,6 +66339,7 @@ unnamed TMimeticUnitRegistration
         ( 'ZSU_23_Shilka_reco_SOV', TacticDepiction_ZSU_23_Shilka_reco_SOV ),
         ( 'ZSU_57_2_DDR', TacticDepiction_ZSU_57_2_DDR ),
         ( 'Kraz_6322', TacticDepiction_Kraz_6322 ),
+        ( 'Kraz_6322_trans', TacticDepiction_Kraz_6322_trans ),
         ( 'GAZ_66_UKR', TacticDepiction_GAZ_66_UKR ),
         ( 'GAZ_66_kom_UKR', TacticDepiction_GAZ_66_kom_UKR ),
         ( 'MTLB_trans_UKR', TacticDepiction_MTLB_trans_UKR ),
