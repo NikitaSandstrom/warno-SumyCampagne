@@ -28427,6 +28427,57 @@ TacticDepiction_Sniper_UKR_Ghost is TemplateInfantryDepictionFactoryGhost (
   Alternatives = TacticDepiction_Sniper_UKR_Alternatives
 )
 
+// *****************************[ Scout_CMD_UKR ]*********************************
+AllWeaponAlternatives_Scout_CMD_UKR is [
+  TDepictionVisual( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_AK74 ),
+  TDepictionVisual( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_Dragunov ),
+  TDepictionVisual( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_RPK74 ),
+  TDepictionVisual( SelectorId = ['MeshAlternative_4'] MeshDescriptor = $/GFX/DepictionResources/Modele_RPG22 ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_RPG22 ),
+]
+AllWeaponSubDepiction_Scout_CMD_UKR is TemplateAllSubWeaponDepiction (
+  Alternatives = AllWeaponAlternatives_Scout_CMD_UKR
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry (
+      FireEffectTag = "FireEffect_FM_AK_74"
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry (
+      FireEffectTag = "FireEffect_Sniper_SVD_Dragunov"
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry (
+      FireEffectTag = "FireEffect_SAW_RPK_74_5_56mm"
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry (
+      FireEffectTag = "FireEffect_RocketInf_RPG22_72_5mm"
+      WeaponShootDataPropertyName = "WeaponShootData_0_4"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_Scout_CMD_UKR is TemplateAllSubBackpackWeaponDepiction (
+  Alternatives = AllWeaponAlternatives_Scout_CMD_UKR
+)
+TacticDepiction_Scout_CMD_UKR_Alternatives is [
+  TDepictionVisual( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Scout_CMD_UKR ),
+  TDepictionVisual( SelectorId = [LOD_High, '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_Scout_CMD_UKR_02 ),
+  TDepictionVisual( SelectorId = [LOD_High, '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_Scout_CMD_UKR_03 ),
+  TDepictionVisual( SelectorId = [LOD_High, '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_Scout_CMD_UKR_04 ),
+  TDepictionVisual( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_Scout_CMD_UKR_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_Scout_SOV ),
+]
+TacticDepiction_Scout_CMD_UKR_Soldier is TemplateInfantryDepictionFactoryTactic (
+  Selector = InfantrySelectorTactic_03_04
+  Alternatives = TacticDepiction_Scout_CMD_UKR_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_Scout_CMD_UKR, AllWeaponSubDepictionBackpack_Scout_CMD_UKR]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_3') ] )]
+)
+TacticDepiction_Scout_CMD_UKR_Ghost is TemplateInfantryDepictionFactoryGhost (
+  Selector = InfantrySelectorTactic_03_04
+  Alternatives = TacticDepiction_Scout_CMD_UKR_Alternatives
+)
+
 InfantrySelectorTactic_00_01 is TemplateInfantrySelectorTactic( Surrogates=TacticDepiction_01_Surrogates UniqueCount=0 )
 
 InfantrySelectorTactic_00_02 is TemplateInfantrySelectorTactic( Surrogates=TacticDepiction_02_Surrogates UniqueCount=0 )
@@ -35917,6 +35968,19 @@ unnamed TTransportedInfantryCatalogEntries
             UniqueCount = 3
             UnitMimetic = TacticDepiction_Scout_UKR_Soldier
             UnitMimeticGhost = TacticDepiction_Scout_UKR_Ghost
+        ),
+        TTransportedInfantryEntry (
+            Count = 4
+            Identifier = "Scout_CMD_UKR"
+            Meshes = [
+                $/GFX/DepictionResources/Modele_Scout_CMD_UKR,
+                $/GFX/DepictionResources/Modele_Scout_CMD_UKR_02,
+                $/GFX/DepictionResources/Modele_Scout_CMD_UKR_03,
+                $/GFX/DepictionResources/Modele_Scout_CMD_UKR_04,
+            ]
+            UniqueCount = 3
+            UnitMimetic = TacticDepiction_Scout_CMD_UKR_Soldier
+            UnitMimeticGhost = TacticDepiction_Scout_CMD_UKR_Ghost
         ),
         TTransportedInfantryEntry
         (

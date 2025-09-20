@@ -2628,5 +2628,6 @@ unnamed TDeckSerializerEntries
         ($/GFX/Unit/Descriptor_Unit_Scout_UKR, 6080),
         ($/GFX/Unit/Descriptor_Unit_Security_UKR, 6081),
         ($/GFX/Unit/Descriptor_Unit_Sniper_UKR, 6082),
+        ($/GFX/Unit/Descriptor_Unit_Scout_CMD_UKR, 6083),
     ]
 )

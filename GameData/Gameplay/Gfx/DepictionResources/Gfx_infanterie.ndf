@@ -952,6 +952,13 @@ export Modele_Sniper_UKR is TResourceMesh( Mesh=SOV_MotoStrelki_TTsko_NCO )
 export Modele_Sniper_UKR_02 is TResourceMesh( Mesh=SOV_MotoStrelki_Sniper )
 export Modele_Sniper_UKR_LOW is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko_LOW )
 
+//Scout_CMD_UKR
+export Modele_Scout_CMD_UKR is TResourceMesh( Mesh=SOV_MotoStrelki_TTsko_Officer )
+export Modele_Scout_CMD_UKR_02 is TResourceMesh( Mesh=SOV_MotoStrelki_2_TTsko )
+export Modele_Scout_CMD_UKR_03 is TResourceMesh( Mesh=SOV_MotoStrelki_TTsko_NCO )
+export Modele_Scout_CMD_UKR_04 is TResourceMesh( Mesh=SOV_MotoStrelki_TTsko_spe )
+export Modele_Scout_CMD_UKR_LOW is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko_LOW )
+
 
 //------------------------------------------------------------------------------
 //-----------------------------------SOLDATS USA--------------------------------
