@@ -9402,6 +9402,10 @@ Gfx_BRDM_2_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_BRDM_2_UKR
     Selector = SpecificVehicleDepictionSelector
 )
+Gfx_BRDM_2_trans_UKR_Showroom is ShowroomVehicleDepictionDesc (
+    Alternatives = Alternatives_BRDM_2_trans_UKR
+    Selector = SpecificVehicleDepictionSelector
+)
 
 Gfx_BTR_60_kom_UKR_Showroom is ShowroomVehicleDepictionDesc (
     Alternatives = Alternatives_BTR_60_kom_UKR
@@ -10730,6 +10734,7 @@ unnamed TMimeticUnitRegistration (
         ('showroom_BMP_1_UKR', Gfx_BMP_1_UKR_Showroom),
         ('showroom_BRM_1_UKR', Gfx_BRM_1_UKR_Showroom),
         ('showroom_BRDM_2_UKR', Gfx_BRDM_2_UKR_Showroom),
+        ('showroom_BRDM_2_trans_UKR', Gfx_BRDM_2_trans_UKR_Showroom),
         ('showroom_BTR_60_kom_UKR', Gfx_BTR_60_kom_UKR_Showroom),
         ('showroom_T64BV_CMD_UKR', Gfx_T64BV_CMD_UKR_Showroom),
         ('showroom_T64BV_UKR', Gfx_T64BV_UKR_Showroom),

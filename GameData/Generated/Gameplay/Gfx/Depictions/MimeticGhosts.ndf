@@ -1730,6 +1730,7 @@ unnamed TMimeticGhostRegistration
         ( 'BMP_1_UKR', GhostDepiction_BMP_1_UKR ),
         ( 'BRM_1_UKR', GhostDepiction_BRM_1_UKR ),
         ( 'BRDM_2_UKR', GhostDepiction_BRDM_2_UKR ),
+        ( 'BRDM_2_trans_UKR', GhostDepiction_BRDM_2_trans_UKR ),
         ( 'BTR_60_kom_UKR', GhostDepiction_BTR_60_kom_UKR ),
         ( 'T64BV_CMD_UKR', GhostDepiction_T64BV_CMD_UKR ),
         ( 'T64BV_UKR', GhostDepiction_T64BV_UKR ),

@@ -64402,6 +64402,51 @@ TacticDepiction_BRDM_2_UKR is TacticVehicleDepictionDesc (
     + DepictionAction_FX_Amphibious_NoPropulsion
 )
 
+DepictionOperator_BRDM_2_trans_UKR_Weapon1 is DepictionOperator_WeaponContinuousFire (
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
+    NbFX = 1
+)
+DepictionOperator_BRDM_2_trans_UKR_Weapon4 is DepictionOperator_WeaponContinuousFire (
+    FireEffectTag = "weapon_effet_tag4"
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_4"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_4"
+    NbFX = 1
+)
+TacticDepiction_BRDM_2_trans_UKR is TacticVehicleDepictionDesc (
+    CoatingName = 'BRDM_2_trans_UKR'
+    Selector = SpecificVehicleDepictionSelector
+    Alternatives = Alternatives_BRDM_2_trans_UKR
+
+    Operators = [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_BRDM,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_Vehicle,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_Turret_1_Aim,
+        $/GFX/Sound/DepictionOperator_TurretSound_ST_SAM_SOVIET,
+        DepictionOperator_Turret_4_Aim,
+        DepictionOperator_BRDM_2_trans_UKR_Weapon1,
+        DepictionOperator_BRDM_2_trans_UKR_Weapon4,
+        DepictionOperator_MovementFX_Amphibious,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP [
+        ( "weapon_effet_tag1", Weapon_HMG_14_5_mm_KPVT ),
+        ( "weapon_effet_tag4", Weapon_MMG_PKT_7_62mm ),
+    ]
+    + DepictionAction_Stress_And_Wrecked
+    + DepictionAction_MovementFX_Wheeled
+    + DepictionAction_CriticalFX_Tank
+    + DepictionAction_FX_Amphibious_NoPropulsion
+)
+
 // Dépiction de l'unité T64BV_CMD_UKR
 DepictionOperator_T64BV_CMD_UKR_Weapon1 is DepictionOperator_WeaponInstantFire (
     FireEffectTag = "weapon_effet_tag1"
@@ -66354,6 +66399,7 @@ unnamed TMimeticUnitRegistration
         ( 'BMP_1_UKR', TacticDepiction_BMP_1_UKR ),
         ( 'BRM_1_UKR', TacticDepiction_BRM_1_UKR ),
         ( 'BRDM_2_UKR', TacticDepiction_BRDM_2_UKR ),
+        ( 'BRDM_2_trans_UKR', TacticDepiction_BRDM_2_trans_UKR ),
         ( 'BTR_60_kom_UKR', TacticDepiction_BTR_60_kom_UKR ),
         ( 'T64BV_CMD_UKR', TacticDepiction_T64BV_CMD_UKR ),
         ( 'T64BV_UKR', TacticDepiction_T64BV_UKR ),

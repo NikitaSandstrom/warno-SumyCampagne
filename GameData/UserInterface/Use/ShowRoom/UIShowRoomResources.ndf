@@ -51,7 +51,7 @@ ShowRoomResource is TUISpecificShowRoomResources
 
     AllianceToCountriesToShow = MAP [
         (ECoalition/PACT, ["SOV","POL","DDR","TCH"]),
-        (ECoalition/NATO, ["US","UK","FR","CAN","RFA","NL","BEL","LUX","ESP"])
+        (ECoalition/NATO, ["US","UK","FR","CAN","RFA","NL","BEL","LUX","ESP", "UKR"])
     ]
 
     SpecificHidingViewDescriptor = ~/UISpecificHidingViewDescriptor

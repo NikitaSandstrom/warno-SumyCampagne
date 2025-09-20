@@ -2616,5 +2616,17 @@ unnamed TDeckSerializerEntries
         ($/GFX/Unit/Descriptor_Unit_AT_MT12K_Rapira_UKR, 6068),
         ($/GFX/Unit/Descriptor_Unit_AT_MT12R_Ruta_UKR, 6069),
         ($/GFX/Unit/Descriptor_Unit_2S1_UKR, 6070),
+        ($/GFX/Unit/Descriptor_Unit_MotRifles_1_UKR, 6071),
+        ($/GFX/Unit/Descriptor_Unit_MotRifles_2_UKR, 6072),
+        ($/GFX/Unit/Descriptor_Unit_MotRifles_3_UKR, 6073),
+        ($/GFX/Unit/Descriptor_Unit_MotRifles_Metis_UKR, 6074),
+        ($/GFX/Unit/Descriptor_Unit_BRDM_2_trans_UKR, 6075),
+        ($/GFX/Unit/Descriptor_Unit_MANPAD_Igla_UKR, 6076),
+        ($/GFX/Unit/Descriptor_Unit_Engineers_UKR, 6077),
+        ($/GFX/Unit/Descriptor_Unit_MotRifles_CMD_UKR, 6078),
+        ($/GFX/Unit/Descriptor_Unit_MP_UKR, 6079),
+        ($/GFX/Unit/Descriptor_Unit_Scout_UKR, 6080),
+        ($/GFX/Unit/Descriptor_Unit_Security_UKR, 6081),
+        ($/GFX/Unit/Descriptor_Unit_Sniper_UKR, 6082),
     ]
 )

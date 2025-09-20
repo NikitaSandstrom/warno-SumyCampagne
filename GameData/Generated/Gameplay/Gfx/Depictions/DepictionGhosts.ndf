@@ -6146,6 +6146,10 @@ GhostDepiction_BRDM_2_UKR is GhostVehicleDepictionDesc (
     Alternatives = Alternatives_BRDM_2_UKR
     Selector = SpecificVehicleDepictionSelector
 )
+GhostDepiction_BRDM_2_trans_UKR is GhostVehicleDepictionDesc (
+    Alternatives = Alternatives_BRDM_2_trans_UKR
+    Selector = SpecificVehicleDepictionSelector
+)
 GhostDepiction_BTR_60_kom_UKR is GhostVehicleDepictionDesc (
     Alternatives = Alternatives_BTR_60_kom_UKR
     Selector = SpecificVehicleDepictionSelector

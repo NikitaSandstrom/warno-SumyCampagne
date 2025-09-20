@@ -886,6 +886,74 @@ export Modele_Scout_VDV_SOV_LOW is TResourceMesh( Mesh=SOV_VDV_1_LOW )
 
 
 //------------------------------------------------------------------------------
+//-----------------------------------SOLDATS UKR--------------------------------
+//------------------------------------------------------------------------------
+//MotRifles_UKR
+export Modele_MotRifles_UKR is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko )
+export Modele_MotRifles_UKR_02 is TResourceMesh( Mesh=SOV_MotoStrelki_2_TTsko )
+export Modele_MotRifles_UKR_03 is TResourceMesh( Mesh=SOV_MotoStrelki_2_TTsko )
+export Modele_MotRifles_UKR_04 is TResourceMesh( Mesh=SOV_MotoStrelki_TTsko_NCO )
+export Modele_MotRifles_UKR_05 is TResourceMesh( Mesh=SOV_MotoStrelki_TTsko_spe )
+export Modele_MotRifles_UKR_06 is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko )
+export Modele_MotRifles_UKR_07 is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko )
+export Modele_MotRifles_UKR_08 is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko )
+export Modele_MotRifles_UKR_09 is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko )
+export Modele_MotRifles_UKR_LOW is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko_LOW )
+
+//MotRifles_Metis_UKR
+export Modele_MotRifles_Metis_UKR is TResourceMesh( Mesh=SOV_MotoStrelki_TTsko_NCO )
+export Modele_MotRifles_Metis_UKR_02 is TResourceMesh( Mesh=SOV_MotoStrelki_2_TTsko )
+export Modele_MotRifles_Metis_UKR_03 is TResourceMesh( Mesh=SOV_MotoStrelki_TTsko_spe )
+export Modele_MotRifles_Metis_UKR_04 is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko )
+export Modele_MotRifles_Metis_UKR_05 is TResourceMesh( Mesh=SOV_MotoStrelki_2_TTsko )
+export Modele_MotRifles_Metis_UKR_LOW is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko_LOW )
+
+//MANPAD_Igla_UKR
+export Modele_MANPAD_Igla_UKR is TResourceMesh( Mesh=SOV_MotoStrelki_TTsko_NCO )
+export Modele_MANPAD_Igla_UKR_02 is TResourceMesh( Mesh=SOV_MotoStrelki_2_TTsko )
+export Modele_MANPAD_Igla_UKR_03 is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko )
+export Modele_MANPAD_Igla_UKR_LOW is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko_LOW )
+
+//Engineers_UKR
+export Modele_Engineers_UKR is TResourceMesh( Mesh=SOV_MotoStrelki_TTsko_NCO )
+export Modele_Engineers_UKR_02 is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko )
+export Modele_Engineers_UKR_03 is TResourceMesh( Mesh=SOV_MotoStrelki_2_TTsko )
+export Modele_Engineers_UKR_04 is TResourceMesh( Mesh=SOV_MotoStrelki_TTsko_spe )
+export Modele_Engineers_UKR_LOW is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko_LOW )
+
+//MotRifles_CMD_UKR
+export Modele_MotRifles_CMD_UKR is TResourceMesh( Mesh=SOV_MotoStrelki_TTsko_Officer )
+export Modele_MotRifles_CMD_UKR_02 is TResourceMesh( Mesh=SOV_MotoStrelki_TTsko_NCO )
+export Modele_MotRifles_CMD_UKR_03 is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko )
+export Modele_MotRifles_CMD_UKR_04 is TResourceMesh( Mesh=SOV_MotoStrelki_2_TTsko )
+export Modele_MotRifles_CMD_UKR_LOW is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko_LOW )
+
+//MP_UKR
+export Modele_MP_UKR is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko )
+export Modele_MP_UKR_02 is TResourceMesh( Mesh=SOV_MotoStrelki_2_TTsko )
+export Modele_MP_UKR_LOW is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko_LOW )
+
+//Scout_UKR
+export Modele_Scout_UKR is TResourceMesh( Mesh=SOV_MotoStrelki_Sniper )
+export Modele_Scout_UKR_02 is TResourceMesh( Mesh=SOV_MotoStrelki_2_TTsko )
+export Modele_Scout_UKR_03 is TResourceMesh( Mesh=SOV_MotoStrelki_TTsko_NCO )
+export Modele_Scout_UKR_04 is TResourceMesh( Mesh=SOV_MotoStrelki_TTsko_spe )
+export Modele_Scout_UKR_LOW is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko_LOW )
+
+//Security_UKR
+export Modele_Security_UKR is TResourceMesh( Mesh=SOV_MotoStrelki_TTsko_NCO )
+export Modele_Security_UKR_02 is TResourceMesh( Mesh=SOV_MotoStrelki_2_TTsko )
+export Modele_Security_UKR_03 is TResourceMesh( Mesh=SOV_MotoStrelki_TTsko_spe )
+export Modele_Security_UKR_04 is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko )
+export Modele_Security_UKR_LOW is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko_LOW )
+
+//Sniper_UKR
+export Modele_Sniper_UKR is TResourceMesh( Mesh=SOV_MotoStrelki_TTsko_NCO )
+export Modele_Sniper_UKR_02 is TResourceMesh( Mesh=SOV_MotoStrelki_Sniper )
+export Modele_Sniper_UKR_LOW is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko_LOW )
+
+
+//------------------------------------------------------------------------------
 //-----------------------------------SOLDATS USA--------------------------------
 //------------------------------------------------------------------------------
 US_GI_1 is 'GameData:/Assets/3D/Units/US/Infanterie/GI/GI_1.fbx'

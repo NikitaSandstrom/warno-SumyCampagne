@@ -44702,5 +44702,2350 @@ export AcknowUnitContainer is TAcknowUnitContainerDescriptor
                 Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/US/US_Vehicle_Target_Destroyed_we_ve_got_them.ogg' Filter = TSoundFilter_RadioVehicule ),
             ]
         ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_AirSup
+            Action        = TAcknowUnitAction_AirplaneOutOfFuel
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_No_Fuel_vovremya_uxozhu_domoj.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_AirSup
+            Action        = TAcknowUnitAction_Attack
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Attack_atakuyu.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Attack_idu_za_zvyozdochkami_na_bort.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Attack_oni_uzhe_pokojniki.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Attack_ponyal_stroyu_zaxod_konecz_svyazi.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Attack_rabotayu_po_protivniku.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_AirSup
+            Action        = TAcknowUnitAction_CriticEvacuate
+            Sounds        = [
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_AirSup
+            Action        = TAcknowUnitAction_DamageReceived
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_DamageReceived_chyort_mne_silno_dostalos.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_DamageReceived_v_menya_popali_v_menya_popali.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_AirSup
+            Action        = TAcknowUnitAction_EnemyAirplaneContact
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Enemy_Contact_protivnik_po_kursu_k_rabote_gotov.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_AirSup
+            Action        = TAcknowUnitAction_Evacuate
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Evacuation_order_ponyal_231_j_uxozhu.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Evacuation_order_vas_ponyal_kurs_na_bazu.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Evacuation_stress_ubirayus.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_AirSup
+            Action        = TAcknowUnitAction_Move
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Move_dvigaemsya_smotrim_v_oba.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Move_manevriruyu.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Move_ponyal_komandir.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Move_proverka_svyazi.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Move_stroyu_zaxod.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_AirSup
+            Action        = TAcknowUnitAction_OutOfAmmo
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Evacuation_Ammo_baza_boekomplekt_pust.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_AirSup
+            Action        = TAcknowUnitAction_Panicking
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Evacuation_critique_tut_zharko_ya_uxozhu.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Evacuation_critique_ya_ubirayus_otsyuda.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_AirSup
+            Action        = TAcknowUnitAction_PositionForbidden
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Impossible_nikak_net_komandir.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_AirSup
+            Action        = TAcknowUnitAction_Select
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Select_231_j_na_svyazi.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Select_302_j_komandiSOV_slushayu_vas.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Select_est_lyotchiki_oxotniki_a_est_lyotchiki_dobycha.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Select_est_ukazaniya.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Select_istrebitel_gotov.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Select_povtorite_baza.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Select_slushayu_vas_baza.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Select_zhdu_ukazanij.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_AirSup
+            Action        = TAcknowUnitAction_ShootOnPosition
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Attack_Position_cel_po_kursu_vnizu.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_AirSup
+            Action        = TAcknowUnitAction_TargetDestroyed
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Target_Destroyed_eshhyo_odin_gotov.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_AirSup_Target_Destroyed_s_nebes_na_zemlyu.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_ArtShell
+            Action        = TAcknowUnitAction_Attack
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Attack_ogon_razmazhte_ix.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Attack_oskolochno_fugasnym_6_vystrelov_ogon.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_ArtShell
+            Action        = TAcknowUnitAction_DamageReceived
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_DamageReceived_nas_nakryli.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_DamageReceived_zdes_my_lyogkaya_dobycha.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_ArtShell
+            Action        = TAcknowUnitAction_EnemyUnitContact
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Enemy_Contact_vrag_blizko_zashhishhajte_orudiya.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_ArtShell
+            Action        = TAcknowUnitAction_LoadIntoTransport
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Load_otvedite_eto_orudie.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_ArtShell
+            Action        = TAcknowUnitAction_Move
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Move_edem.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Move_Fast_da_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Move_Fast_idyom_tuda.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Move_Fast_po_doroge_to_bystree.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Move_Fast_poddajte_gazku_muzhiki_my_na_podxode.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Move_Fast_sdelaem_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Move_menyayu_ognevuyu_poziciyu.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Move_nuzhno_chto_to_raznesti.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Move_peredvigaem_orudiya_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Move_vas_ponyal_menyaem_poziciyu_konecz_svyazi.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_ArtShell
+            Action        = TAcknowUnitAction_MoveAndAttackOrder
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Move_Attack_dvigajtes_ostorozhno_rebyata.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Move_Attack_est_smenit_poziciyu.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Move_Attack_my_chto_na_tank_poxozhi.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Move_Attack_sdelaem_chto_mozhem_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Move_Attack_vydvigaemsya_i_vysmatrivajte_imperialistov.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_ArtShell
+            Action        = TAcknowUnitAction_OutOfAmmo
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_No_Ammo_boekomplekt_pust_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_ArtShell
+            Action        = TAcknowUnitAction_Panicking
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Panicking_po_nam_rabotayut.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Panicking_sejchas_rvanet.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_ArtShell
+            Action        = TAcknowUnitAction_PositionForbidden
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Impossible_nikak_net_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_ArtShell
+            Action        = TAcknowUnitAction_Reverse
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Reverse_otstupaem.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_ArtShell
+            Action        = TAcknowUnitAction_Select
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Select_artilleriya_zhdyot_prikazov.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Select_da_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Select_dobavim_ognevoj_moshhi.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Select_est_celi_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Select_gotovy_vdarit_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Select_k_boyu_gotov.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Select_mozhet_baxnem.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Select_orudie_gotovo_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Select_v_vashem_rasporyazhenii.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Select_zhdyom_celeukazanij.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_ArtShell
+            Action        = TAcknowUnitAction_ShootOnPosition
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Attack_Position_fugas_zaryazhen_k_boyu_gotov.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Attack_Position_korrektiruyu_ogon.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Attack_Position_sklonenie_desyat_gradusov_ogon.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_ArtShell
+            Action        = TAcknowUnitAction_Smoke
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Smoke_dymovye_zaryazhaj.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_ArtShell
+            Action        = TAcknowUnitAction_Stop
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Stop_ostanovimsya.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_ArtShell
+            Action        = TAcknowUnitAction_Surrender
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Surrender_otstavit_ogon.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_ArtShell
+            Action        = TAcknowUnitAction_TargetDestroyed
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Target_Destroyed_cel_porazhena.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Target_Destroyed_eshhyo_odin_gotov.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_ArtShell
+            Action        = TAcknowUnitAction_Unload
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Unload_k_mashine_razvernut_orudie.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_ArtShell
+            Action        = TAcknowUnitAction_WithdrawOrder
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_ArtShell_Withdraw_vytashhite_nas_otsyuda.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_CanonAA
+            Action        = TAcknowUnitAction_Attack
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Attack_cel_zaxvachena_ogon.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Attack_kak_po_tarelochkam.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Attack_ogon_po_gotovnosti.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Attack_stvoly_na_30_gradusov_ocheredyami.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Attack_zadadim_zharu.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_CanonAA
+            Action        = TAcknowUnitAction_DamageReceived
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_DamageReceived_beregis.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_DamageReceived_my_pod_obstrelom.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_CanonAA
+            Action        = TAcknowUnitAction_EnemyUnitContact
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Enemy_Contact_gotovtes_protivnik_zamechen.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_CanonAA
+            Action        = TAcknowUnitAction_LoadIntoTransport
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Load_k_mashine_razvernut_orudie.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_CanonAA
+            Action        = TAcknowUnitAction_Move
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Move_est_komandir_poexali.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Move_est_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Move_Fast_my_edem.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Move_Fast_ne_teryaem_vremeni.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Move_Fast_poddajte_gazku_muzhiki_my_na_podxode.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Move_Fast_pognali_rebyata.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Move_Fast_voditel_bystree.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Move_gotovim_pvo.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Move_poexali.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Move_vas_ponyal_vydvigayus.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_CanonAA
+            Action        = TAcknowUnitAction_MoveAndAttackOrder
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Move_Attack_dvigaemsya_bez_gerojstva.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Move_Attack_dvigajtes_no_budte_gotovy_k_strelbe.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Move_Attack_edem_i_strelyaem_vo_vsyo_chto_dvizhetsya.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Move_Attack_menyayu_poziciyu.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Move_Attack_poluchen_prikaz_strelyat_po_gotovnosti.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_CanonAA
+            Action        = TAcknowUnitAction_OutOfAmmo
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_No_Ammo_boekomplekt_na_isxode.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_CanonAA
+            Action        = TAcknowUnitAction_Panicking
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Panicking_v_ukrytie.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Panicking_vybiraemsya_iz_etogo_ada.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_CanonAA
+            Action        = TAcknowUnitAction_PositionForbidden
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Impossible_nikak_net.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_CanonAA
+            Action        = TAcknowUnitAction_Reverse
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Reverse_zadnij_xod.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_CanonAA
+            Action        = TAcknowUnitAction_Select
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Select_est_ukazaniya_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Select_k_strelbe_gotov.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Select_orudiya_provereny_i_gotovy.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Select_ozhidaem_celeukazaniya.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Select_ozhidaem_vozdushnyx_ili_nazemnyx_celej.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Select_slushaem_vashi_ukazaniya.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Select_slushayu.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Select_slushayu_vas_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Select_vedyom_nablyudenie_za_nebom.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Select_zhdyom_celeukazaniya.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_CanonAA
+            Action        = TAcknowUnitAction_ShootOnPosition
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Attack_Position_raznesyom_ix.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_CanonAA
+            Action        = TAcknowUnitAction_Stop
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Stop_zhdyom_ukazanij.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_CanonAA
+            Action        = TAcknowUnitAction_Surrender
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Surrender_my_sdayomsya.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_CanonAA
+            Action        = TAcknowUnitAction_TargetDestroyed
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Target_Destroyed_doletalsya.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Target_Destroyed_est_popadanie.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_CanonAA
+            Action        = TAcknowUnitAction_Unload
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Unload_ubiraem_orudie.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_CanonAA
+            Action        = TAcknowUnitAction_WithdrawOrder
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_CanonAA_Withdraw_otstupaem.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Command
+            Action        = TAcknowUnitAction_Attack
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Attack_beSOV_ix_na_sebya.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Attack_dejstvuem_po_boevoj_sxeme.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Attack_unichtozhit.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Attack_za_rodinu.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Command
+            Action        = TAcknowUnitAction_DamageReceived
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_DamageReceived_nesyom_poteri.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_DamageReceived_shtab_pod_ognyom.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_DamageReceived_u_nas_poteri.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Command
+            Action        = TAcknowUnitAction_EnemyUnitContact
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Enemy_Contact_vrag_v_perimetre_karaul_v_ruzhyo.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Command
+            Action        = TAcknowUnitAction_LoadIntoTransport
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Load_svorachivaemsya.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Command
+            Action        = TAcknowUnitAction_Move
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Move_Fast_bystree_kazhdaya_minuta_na_schetu.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Move_Fast_eto_manyovrennaya_vojna.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Move_Fast_peredislociruyus.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Move_Fast_poexali_uzhe.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Move_Fast_vperedi_na_lixom_kone.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Move_skoro_budu.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Move_v_puti.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Move_xoroshee_mesto_dlya_shtaba.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Command
+            Action        = TAcknowUnitAction_MoveAndAttackOrder
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Move_Attack_prochesat_perimetr.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Move_Attack_stavlyu_boevuyu_zadachu.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Move_Attack_v_ataku_za_mnoj.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Move_Attack_vyxodim_na_rubezh_ataki.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Move_Attack_za_mnoj.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Command
+            Action        = TAcknowUnitAction_OutOfAmmo
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_No_Ammo_boepripasy_zakanchivayutsya.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Command
+            Action        = TAcknowUnitAction_Panicking
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Panicking_nuzhna_podderzhka_s_vozduxa.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Panicking_otstavit_paniku.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Command
+            Action        = TAcknowUnitAction_PositionForbidden
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Impossible_dlya_etogo_mne_ponadobitsya_pismennyj_prikaz.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Command
+            Action        = TAcknowUnitAction_Reverse
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Reverse_nazad.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Command
+            Action        = TAcknowUnitAction_Select
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Select_est_takaya_professiya_rodinu_zashhishhat.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Select_gotov.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Select_na_svyazi.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Select_nashe_delo_pravoe_vrag_budet_razbit_pobeda.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Select_polnaya_boevaya_gotovnost.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Select_shtab_razvernut.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Select_sverim_chasy.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Select_tishina_v_efire.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Select_v_etot_raz_dojdyom_do_la_mansha.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Command
+            Action        = TAcknowUnitAction_ShootOnPosition
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Attack_Position_sosredotochit_ogon.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Command
+            Action        = TAcknowUnitAction_Stop
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Stop_razvorachivaemsya_zdes.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Command
+            Action        = TAcknowUnitAction_Surrender
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Surrender_my_sdelali_chto_smogli.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Command
+            Action        = TAcknowUnitAction_TargetDestroyed
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Target_Destroyed_podtverzhdayu_cel_unichtozhena.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Target_Destroyed_pryamoe_popadanie.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Command
+            Action        = TAcknowUnitAction_Unload
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Unload_vylezaj.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Command
+            Action        = TAcknowUnitAction_WithdrawOrder
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Command_Withdraw_otxodim_k_tochke_sbora.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Engineer
+            Action        = TAcknowUnitAction_Attack
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Attack_anu_ka_lovi_podarochek.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Attack_ispolnim_v_luchshem_vide.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Attack_ogon.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Attack_ox_i_zrya_oni_eto_nachali.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Attack_vystrel.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Engineer
+            Action        = TAcknowUnitAction_DamageReceived
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_DamageReceived_po_nam_strelyayut.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_DamageReceived_silnoe_soprotivlenie.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_DamageReceived_vracha.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Engineer
+            Action        = TAcknowUnitAction_EnemyUnitContact
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Enemy_Contact_vizualnyj_kontakt_s_protvinikom.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Engineer
+            Action        = TAcknowUnitAction_LoadIntoTransport
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Load_po_mestam.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Engineer
+            Action        = TAcknowUnitAction_Move
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Move_daleko_eshhyo.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Move_gotovy_dat_zharu.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Move_opyat_peshkom.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Move_pervyj_vzvod_vydvigaemsya.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Move_shago_om_marsh.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Move_shevelites.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Move_shevelites_chto_vy_kak_sonnye_muxi.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Move_vas_ponyal_menyaem_poziciyu.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Engineer
+            Action        = TAcknowUnitAction_MoveAndAttackOrder
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Move_Attack_est.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Move_Attack_kamnya_na_kamne_ne_ostavim.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Move_Attack_my_gotovilis_k_etomu_dnyu.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Move_Attack_nachinaem_zachistku.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Move_Attack_pervyj_vzvod_vperyod.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Move_Attack_prigotovitsya_k_atake.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Move_Attack_vyxodim_na_polnyj_kontakt.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Engineer
+            Action        = TAcknowUnitAction_OutOfAmmo
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_No_Ammo_ne_mogu_vesti_boj_bk_zakonchilsya.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_No_Ammo_nuzhny_boepripasy.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Engineer
+            Action        = TAcknowUnitAction_Panicking
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Panicking_nuzhno_uxodit_otsyuda.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Panicking_prosim_pomoshhi_kak_slyshno.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Engineer
+            Action        = TAcknowUnitAction_PositionForbidden
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Impossible_vyshe_golovy_ne_prygnut.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Engineer
+            Action        = TAcknowUnitAction_Select
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Select_goroda_beryot_ne_kto_to_goroda_beryot_pexota.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Select_gotov_k_boyu.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Select_gotov_k_vypolneniyu_boevoj_zadachi.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Select_na_svyazi.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Select_oruzhie_na_izgotovku.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Select_proverit_ammuniciyu.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Select_sapyornyj_vzvod_gotov.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Select_sapyornyj_vzvod_postroen_i_zhdet_prikazov.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Select_slushayu_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Select_soldat_spit_sluzhba_idyot.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Select_tovarishh_komandir_vtoroj_vzvod_gotov.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Select_v_ozhidanii_prikazov.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Select_vsyo_luchshe_chem_ryt_okopy.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Engineer
+            Action        = TAcknowUnitAction_ShootOnPosition
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Attack_Position_ogon_po_orientiru.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Engineer
+            Action        = TAcknowUnitAction_Stop
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Stop_est_otstavit.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Engineer
+            Action        = TAcknowUnitAction_Surrender
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Surrender_my_sdaemsya.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Surrender_ne_strelyajte.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Engineer
+            Action        = TAcknowUnitAction_TargetDestroyed
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Target_Destroyed_sdelali_ix.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Target_Destroyed_sverli_dySOV_v_kitele_boecz.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Target_Destroyed_vosstanovleniyu_ne_podlezhit.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Engineer
+            Action        = TAcknowUnitAction_Unload
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Unload_desant_pokinut_mashinu.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Engineer
+            Action        = TAcknowUnitAction_UnloadAtPosition
+            Sounds        = [
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Engineer
+            Action        = TAcknowUnitAction_WithdrawOrder
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Withdraw_nazad_otxodim.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Engineer_Withdraw_otstupaem.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_GroundAtk
+            Action        = TAcknowUnitAction_AirplaneOutOfFuel
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_No_Fuel_ostalos_500_kilogramm_rubezh_vozvrata.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_GroundAtk
+            Action        = TAcknowUnitAction_Attack
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Attack_rabotayu_po_celi.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Attack_vooruzhenie_gotovo.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Attack_vvozhu_popravki.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Attack_zaxod_na_40_otxod_na_200.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Attack_zaxozhu_na_cel.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_GroundAtk
+            Action        = TAcknowUnitAction_CriticEvacuate
+            Sounds        = [
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_GroundAtk
+            Action        = TAcknowUnitAction_DamageReceived
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_DamageReceived_povrezhdenie_dvigatelya.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_DamageReceived_zdes_slishkom_zharko.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_GroundAtk
+            Action        = TAcknowUnitAction_EnemyAirplaneContact
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Enemy_Contact_vizhu_kontakt.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_GroundAtk
+            Action        = TAcknowUnitAction_Evacuate
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Evacuation_order_lechu_domoj.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Evacuation_order_vyxozhu_iz_boya.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Evacuation_stress_prekrashhayu_zadanie.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_GroundAtk
+            Action        = TAcknowUnitAction_Move
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Move_lozhus_na_kurs.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Move_menyayu_sektor.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Move_poletnoe_zadanie_poluchenno.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Move_ponyal_vydvigayus_v_12j_kvadrat.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Move_sleduyu_po_novomu_marshrutu.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_GroundAtk
+            Action        = TAcknowUnitAction_OutOfAmmo
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Evacuation_Ammo_ya_pustoj_vozvrashhayus_na_bazu.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_GroundAtk
+            Action        = TAcknowUnitAction_Panicking
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Evacuation_critique_bort_povrezhdyon_uxozhu_domoj.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Evacuation_critique_uxozhu_na_vysotu.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_GroundAtk
+            Action        = TAcknowUnitAction_PositionForbidden
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Impossible_net_vozmozhnosti.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_GroundAtk
+            Action        = TAcknowUnitAction_Select
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Select_bort_gotov.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Select_komandir.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Select_na_svyazi.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Select_novye_celi.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Select_ozhidayu_celeukazaniya.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Select_ozhidayu_ukazanij.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Select_pervym_delom_pervym_delom_samolety.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Select_vse_vyshe_i_vyshe_i_vyshe.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_GroundAtk
+            Action        = TAcknowUnitAction_ShootOnPosition
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Attack_Position_rabotayu_po_kvadratu.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_GroundAtk
+            Action        = TAcknowUnitAction_TargetDestroyed
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Target_Destroyed_v_yablochko.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_GroundAtk_Target_Destroyed_vdrebezgi.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliAttack
+            Action        = TAcknowUnitAction_AirplaneOutOfFuel
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_No_Fuel_toplivo_na_isxode.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliAttack
+            Action        = TAcknowUnitAction_Attack
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Attack_cel_poluchenna.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Attack_est_unichtozhit_cel.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Attack_na_boevom.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Attack_sejchas_razdam_im_eskimo.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Attack_vypolnyayu_zadachu.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliAttack
+            Action        = TAcknowUnitAction_CriticEvacuate
+            Sounds        = [
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliAttack
+            Action        = TAcknowUnitAction_DamageReceived
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_DamageReceived_po_nam_dolbyat.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_DamageReceived_rotor_povrezhden.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliAttack
+            Action        = TAcknowUnitAction_EnemyAirplaneContact
+            Sounds        = [
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliAttack
+            Action        = TAcknowUnitAction_EnemyUnitContact
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Enemy_Contact_vrag_v_pole_zreniya.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliAttack
+            Action        = TAcknowUnitAction_Evacuate
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Evacuation_order_ponyal_vozvrashhayus.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Evacuation_order_uxozhu_s_polya_boya.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Evacuation_stress_vstal_na_obratnyj.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliAttack
+            Action        = TAcknowUnitAction_Move
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Move_na_marshrute.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Move_nabirayu_maksimalnuyu_skorost.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Move_pribavim_oboroty.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Move_vyletaem.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Move_vyxozhu_v_zadannyj_kvadrat.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliAttack
+            Action        = TAcknowUnitAction_OutOfAmmo
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Evacuation_Ammo_boepripasy_konchilis.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliAttack
+            Action        = TAcknowUnitAction_Panicking
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Evacuation_critique_vozgoranie_dvigatelya.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Evacuation_critique_ya_pod_obstrelom.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliAttack
+            Action        = TAcknowUnitAction_PositionForbidden
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Impossible_ya_ne_volshebnik.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliAttack
+            Action        = TAcknowUnitAction_Select
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Select_chastotu_rm_izmenil_polet_prodolzhayu.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Select_letayushhaya_bmp_na_svyazi.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Select_luchshe_poteryat_nevestu_chem_oboroty.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Select_nas_vsegda_s_nadezhdoj_zhdut.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Select_oboroty_v_norme.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Select_smena_polyotnogo_zadaniya.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Select_vertushki_na_svyazi_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Select_vozim_bomby_i_rakety.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliAttack
+            Action        = TAcknowUnitAction_ShootOnPosition
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Attack_Position_primenyayu_raketno_pushechnoe.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliAttack
+            Action        = TAcknowUnitAction_TargetDestroyed
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliAttack_Target_Destroyed_xorosho_nakryl_strelok.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliTransport
+            Action        = TAcknowUnitAction_Attack
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Attack_beSOV_popravku_ogon.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Attack_dayu_zalp.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Attack_nakonecz_to_postrelyaem.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Attack_unichtozhim_ix_vsex.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Attack_vypolnyayu.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliTransport
+            Action        = TAcknowUnitAction_DamageReceived
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_DamageReceived_eshhe_odno_popadanie_i_nam_konecz.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_DamageReceived_xvostovaya_balka_povrezhdena.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliTransport
+            Action        = TAcknowUnitAction_EnemyUnitContact
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Enemy_Contact_ostorozhno_protivnik_ryadom.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliTransport
+            Action        = TAcknowUnitAction_LoadIntoTransport
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Load_dobro_pozhalovat_na_bort.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Load_pora_na_bort.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliTransport
+            Action        = TAcknowUnitAction_Move
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Move_nabirayu_vysotu.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Move_ponyal_komandir.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Move_priyatno_videt_chto_kto_to_v_kurse_kuda_my_letim.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Move_vyletaem.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Move_vypolnyayu_poletnoe_zadanie.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliTransport
+            Action        = TAcknowUnitAction_OutOfAmmo
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_No_Ammo_pilony_pusty.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliTransport
+            Action        = TAcknowUnitAction_Panicking
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Panicking_poterya_upravleniya.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Panicking_vybiraemsya_iz_etogo_ada.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliTransport
+            Action        = TAcknowUnitAction_PositionForbidden
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Impossible_ne_dumayu_chto_u_nas_poluchitsya_tovarishh.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliTransport
+            Action        = TAcknowUnitAction_Select
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Select_da_komandir.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Select_dostavim_bez_shumu_i_pyli.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Select_gotov_k_vypolneniyu_boevoj_zadachi.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Select_k_vashim_uslugam.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Select_kuda_letim.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Select_ozhidaem.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Select_slushayu.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Select_zhdu_novyx_ukazanij.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliTransport
+            Action        = TAcknowUnitAction_ShootOnPosition
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Attack_Position_nakryt_tam_vsyo_ognyom.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliTransport
+            Action        = TAcknowUnitAction_Stop
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Stop_sbrasyvaj_tyagu_pilot.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliTransport
+            Action        = TAcknowUnitAction_TargetDestroyed
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Target_Destroyed_odnim_menshe.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliTransport
+            Action        = TAcknowUnitAction_Unload
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Unload_vygruzhaemsya.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_Unload_vyxodim_konechnaya.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_HeliTransport
+            Action        = TAcknowUnitAction_UnloadAtPosition
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_UnloadAtPosition_dostav_nas_von_tuda.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_HeliTransport_UnloadAtPosition_my_razvernemsya_vot_na_etoj_pozicii.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Inf
+            Action        = TAcknowUnitAction_Attack
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Attack_ne_ostavim_im_shansov.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Attack_ogon.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Attack_otdelenie_k_boyu.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Attack_po_celi_ogon.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Attack_ura.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Inf
+            Action        = TAcknowUnitAction_DamageReceived
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_DamageReceived_u_nas_poteri.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_DamageReceived_vsem_zalech.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_DamageReceived_ya_ranen.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Inf
+            Action        = TAcknowUnitAction_EnemyUnitContact
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Enemy_Contact_obnaruzhen_protivnik_prigotovitsya_k_boyu.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Inf
+            Action        = TAcknowUnitAction_LoadIntoTransport
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Load_luchshe_ploxo_exat_chem_xorosho_idti.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Inf
+            Action        = TAcknowUnitAction_Move
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Move_aty_baty_shli_soldaty.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Move_begom_marsh.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Move_bodree_bojcy.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Move_ne_otstavat.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Move_ponyal_menyayu_poziciyu_otboj.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Move_shire_shag.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Move_vtoroj_vzvod_vydvigaemsya.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Move_xvatit_sidet_vam_chto_zanyatsya_nechem.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Inf
+            Action        = TAcknowUnitAction_MoveAndAttackOrder
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Move_Attack_korotkimi_perebezhkami.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Move_Attack_nachat_dvizhenie_o_kontaktax_dokladyvat.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Move_Attack_ogon_po_gotovnosti.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Move_Attack_prigotovitsya_k_boyu.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Move_Attack_sdelaem_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Move_Attack_v_boevoj_poryadok.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Move_Attack_za_rodinu.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Inf
+            Action        = TAcknowUnitAction_OutOfAmmo
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_No_Ammo_nuzhny_boepripasy.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_No_Ammo_patronov_bolshe_net.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Inf
+            Action        = TAcknowUnitAction_Panicking
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Panicking_kazhetsya_nam_konecz.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Panicking_nas_zdes_vsex_perestrelyayut.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Inf
+            Action        = TAcknowUnitAction_PositionForbidden
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Impossible_razreshite_utochnit.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Inf
+            Action        = TAcknowUnitAction_Select
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Select_czaricza_polej_slushaet.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Select_gotov_k_boyu.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Select_k_vypolneniyu_boevoj_zadachi_gotov.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Select_krasnaya_armiya_vsex_silnej.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Select_oruzhie_na_izgotovku.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Select_po_vashemu_prikazu_vzvod_postroen.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Select_proverit_snaryazhenie.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Select_razgovorchiki_v_stroyu.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Select_slushayu_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Select_sluzhu_sovetskomu_soyuzu.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Select_vtoroj_vzvod_gotov.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Select_vzvod_postroen_i_zhdet_prikazov.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Select_zhdu_prikazov.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Inf
+            Action        = TAcknowUnitAction_ShootOnPosition
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Attack_Position_patronov_ne_zhalet.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Inf
+            Action        = TAcknowUnitAction_Stop
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Stop_otdelenie_stoj.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Inf
+            Action        = TAcknowUnitAction_Surrender
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Surrender_my_sdaemsya.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Surrender_ne_strelyajte.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Inf
+            Action        = TAcknowUnitAction_TargetDestroyed
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Target_Destroyed_odnim_imperialistom_menshe.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Target_Destroyed_tak_derzhat_bojcy.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Target_Destroyed_tak_im.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Inf
+            Action        = TAcknowUnitAction_Unload
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Unload_speshitsya.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Inf
+            Action        = TAcknowUnitAction_WithdrawOrder
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Withdraw_nazad_nazad.ogg' Filter = TSoundFilter_RadioOutside ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Inf_Withdraw_nichego_ne_vyjdet_bratcy_otxodim.ogg' Filter = TSoundFilter_RadioOutside ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Logistic
+            Action        = TAcknowUnitAction_DamageReceived
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_DamageReceived_u_menya_tut_puli_nad_golovoj_svistyat.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Logistic
+            Action        = TAcknowUnitAction_EnemyUnitContact
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Enemy_Contact_vperedi_protivnik_nam_povorachivat.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Logistic
+            Action        = TAcknowUnitAction_Move
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Move_nam_von_tuda.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Move_nu_poexali.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Move_prinyal_sdelaem.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Move_vy_uvereny_chto_tam_bezopasno.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Move_zavodi_motor_my_edem.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Logistic
+            Action        = TAcknowUnitAction_OutOfAmmo
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_No_Ammo_vsyo_otgruzili.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Logistic
+            Action        = TAcknowUnitAction_Panicking
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Panicking_nas_zdes_voobshhe_byt_ne_dolzhno.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Panicking_tovarishh_praporshhik_chto_nam_delat.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Logistic
+            Action        = TAcknowUnitAction_PositionForbidden
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Impossible_my_tylovaya_sluzhba_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Logistic
+            Action        = TAcknowUnitAction_QuickMove
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Move_Fast_bez_tryaski_davaj_ne_kartoshku_vezyosh.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Move_Fast_bystrej_nuzhno_nagnat_svoix.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Move_Fast_ex_put_dorozhka_frontovaya.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Move_Fast_ne_zastryat_by_v_gryazishhe.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Move_Fast_treti_sutki_v_puti.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Logistic
+            Action        = TAcknowUnitAction_Reverse
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Reverse_zadnij_xod.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Logistic
+            Action        = TAcknowUnitAction_Select
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Select_k_kuzovu_ne_podxodit.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Select_k_rejsu_gotov_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Select_mozhet_chajku.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Select_my_povorot_ne_propustili.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Select_na_svyazi.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Select_novyj_rejs.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Select_tylovoe_obespechenie_na_svyazi.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Select_vojna_vojnoj_a_obed_po_raspisaniyu.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Logistic
+            Action        = TAcknowUnitAction_Stop
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Logistic_Stop_tormozi_my_zdes_podozhdyom.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Logistic
+            Action        = TAcknowUnitAction_WithdrawOrder
+            Sounds        = [
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Multirole
+            Action        = TAcknowUnitAction_AirplaneOutOfFuel
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_No_Fuel_uxozhu_lechu_na_parax.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Multirole
+            Action        = TAcknowUnitAction_Attack
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Attack_atakuyu.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Attack_cel_zaxvachena.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Attack_eto_oni_navsegda_zapomnyat.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Attack_sejchas_oni_u_menya_poplyashut.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Attack_zaxozhu_na_cel.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Multirole
+            Action        = TAcknowUnitAction_DamageReceived
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_DamageReceived_krylo_probito.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_DamageReceived_stabilizator_povrezhden.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Multirole
+            Action        = TAcknowUnitAction_EnemyAirplaneContact
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Enemy_Contact_vizhu_novuyu_metku_na_spo.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Multirole
+            Action        = TAcknowUnitAction_Evacuate
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Evacuation_order_polyotnoe_zadanie_zavershil_vozvrashhayus_na.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Evacuation_order_uxozhu.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Evacuation_stress_tolko_by_do_svoix_dotyanut.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Multirole
+            Action        = TAcknowUnitAction_Move
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Move_kurs_skorrektiroval.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Move_lechu.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Move_menyayu_kurs.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Move_nadeyus_reb_ne_podvedyot.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Move_vyletayu.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Multirole
+            Action        = TAcknowUnitAction_OutOfAmmo
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Evacuation_Ammo_ya_pustoj.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Multirole
+            Action        = TAcknowUnitAction_Panicking
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Evacuation_critique_lechu_na_chestnom_slove.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Evacuation_critique_pozhar_dvigatelya_tyanu_domoj.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Multirole
+            Action        = TAcknowUnitAction_PositionForbidden
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Impossible_povtorite.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Multirole
+            Action        = TAcknowUnitAction_Select
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Select_avianavodchiki_na_meste.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Select_gde_nasha_cel.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Select_kakimi_budut_vashi_ukazaniya.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Select_my_porazim_lyubuyu_cel.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Select_my_rozhdeny_chtob_skazku_sdelat_bylyu.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Select_nebo_nash_nebo_nash_rodimyj_dom.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Select_preodolet_prostranstvo_i_prostor.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Select_utochnite_zadachu.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Multirole
+            Action        = TAcknowUnitAction_ShootOnPosition
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Attack_Position_krasivyj_vid_zhal_portit.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Multirole
+            Action        = TAcknowUnitAction_TargetDestroyed
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Target_Destroyed_poluchil.ogg' Filter = TSoundFilter_RadioAirplane ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Multirole_Target_Destroyed_popal.ogg' Filter = TSoundFilter_RadioAirplane ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Reco
+            Action        = TAcknowUnitAction_Attack
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Attack_bez_lishnego_shuma.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Attack_ogon.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Attack_ogon_na_porazhenie.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Attack_po_moej_komande.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Attack_sdelaem_vsyo_bystro.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Reco
+            Action        = TAcknowUnitAction_DamageReceived
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_DamageReceived_nas_zametili.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_DamageReceived_po_nam_vedut_silnyj_ogon.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Reco
+            Action        = TAcknowUnitAction_EnemyUnitContact
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Enemy_Contact_dvizhenie_na_gorizonte.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Reco
+            Action        = TAcknowUnitAction_LoadIntoTransport
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Load_zalezaj.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Reco
+            Action        = TAcknowUnitAction_Move
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Move_dvigaemsya_skrytno.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Move_Fast_byjstrej_poexali.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Move_Fast_bystree_nuzhno_okazatsya_tam_pervymi.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Move_Fast_davaj_bystree_poka_nas_ne_zametili.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Move_Fast_ponyal.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Move_Fast_pulej_tuda.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Move_normalnye_geroi_vsegda_idut_v_obxod.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Move_razvernyom_zdes_nablyudatelnyj_post.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Move_samyj_lyogkij_put_uzhe_zaminirovan.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Move_tak_tochno_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Reco
+            Action        = TAcknowUnitAction_MoveAndAttackOrder
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Move_Attack_bez_shuma_i_pyli.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Move_Attack_poshel_poshel_poshel.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Move_Attack_razvedka_boem_vperyod.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Move_Attack_sblizhaemsya.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Move_Attack_vydvigaemsya_k_celi.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Reco
+            Action        = TAcknowUnitAction_OutOfAmmo
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_No_Ammo_boepripasov_ne_ostalos.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Reco
+            Action        = TAcknowUnitAction_Panicking
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Panicking_eto_zasada.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Panicking_my_v_ognevom_meshke.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Reco
+            Action        = TAcknowUnitAction_PositionForbidden
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Impossible_povtorite_prikaz_priyom.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Reco
+            Action        = TAcknowUnitAction_Reverse
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Reverse_sdavaj_nazad.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Reco
+            Action        = TAcknowUnitAction_Select
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Select_davno_xotel_posetit_kapstranu.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Select_gotov.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Select_proverka_svyazi_priem.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Select_razvedvzvod_v_vashem_rasporyazhenii.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Select_slushayu_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Select_udivit_znachit_pobedit.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Select_ves_v_vnimanii.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Select_vyshe_nas_tolko_zvyozdy.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Select_zhdu_novyx_ukazanij.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Reco
+            Action        = TAcknowUnitAction_ShootOnPosition
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Attack_Position_proverim_est_li_tam_kto.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Reco
+            Action        = TAcknowUnitAction_Stop
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Stop_stoj_sperva_nuzhno_osmotretsya.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Reco
+            Action        = TAcknowUnitAction_Surrender
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Surrender_my_sdaemsya.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Reco
+            Action        = TAcknowUnitAction_TargetDestroyed
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Target_Destroyed_on_tak_i_ne_ponyal_chto_eto_bylo.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Target_Destroyed_sdelal_ego.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Reco
+            Action        = TAcknowUnitAction_Unload
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Unload_vse_naruzhu.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Reco
+            Action        = TAcknowUnitAction_WithdrawOrder
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Reco_Withdraw_uxodim.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_TankDestroyer
+            Action        = TAcknowUnitAction_Attack
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Attack_bej_ego_pod_bashnyu.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Attack_pusk.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Attack_unichtozhit_cel.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Attack_vstupayu_v_boj.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_TankDestroyer
+            Action        = TAcknowUnitAction_DamageReceived
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_DamageReceived_eshhyo_odnogo_popadaniya_my_ne_vyderzhim.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_DamageReceived_po_nam_vedut_otvetnyj_ogon.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_TankDestroyer
+            Action        = TAcknowUnitAction_EnemyUnitContact
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Enemy_Contact_nablyudayu_protivnika_priyom.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_TankDestroyer
+            Action        = TAcknowUnitAction_Move
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Move_otlichnoe_mesto_dlya_zasady.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Move_vydvigaemsya_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Move_vyxozhu_na_novuyu_poziciyu.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Move_zanimaem_novuyu_ognevuyu_pociziyu.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_TankDestroyer
+            Action        = TAcknowUnitAction_MoveAndAttackOrder
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Move_Attack_moya_ruka_ne_drognet.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Move_Attack_sledite_za_gorizontom.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Move_Attack_vperyod_oni_dolzhny_byt_gde_to_ryadom.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_TankDestroyer
+            Action        = TAcknowUnitAction_OutOfAmmo
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_No_Ammo_bk_na_isxode.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_TankDestroyer
+            Action        = TAcknowUnitAction_Panicking
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Panicking_nam_ix_ne_sderzhat.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_TankDestroyer
+            Action        = TAcknowUnitAction_PositionForbidden
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Impossible_povtorite_komandu_priyom.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_TankDestroyer
+            Action        = TAcknowUnitAction_QuickMove
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Move_Fast_bystrej_nuzhno_zanyat_novyj_rubezh.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Move_Fast_glavnoe_vyjti_k_nim_vo_flang.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Move_Fast_ponyal.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Move_Fast_vperyod_na_zapad.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_TankDestroyer
+            Action        = TAcknowUnitAction_Reverse
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Reverse_davaj_nazad.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_TankDestroyer
+            Action        = TAcknowUnitAction_Select
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Select_bronya_im_ne_pomozhet.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Select_davajte_tanchiki_katite_k_nam.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Select_k_boyu_gotov_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Select_k_manyovSOV_gotov.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Select_na_svyazi.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Select_na_vojne_kak_na_vojne.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Select_prikazy_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Select_protivotankovyj_vzvod_gotov.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Select_slyshu_vas_xorosho.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Select_u_vsex_est_slabye_mesta.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_TankDestroyer
+            Action        = TAcknowUnitAction_ShootOnPosition
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Attack_Position_tam_chto_to_dvizhetsya_ogon.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_TankDestroyer
+            Action        = TAcknowUnitAction_Stop
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Stop_stoj.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_TankDestroyer
+            Action        = TAcknowUnitAction_Surrender
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Surrender_sdaemsya.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_TankDestroyer
+            Action        = TAcknowUnitAction_TargetDestroyed
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Target_Destroyed_gorit.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Target_Destroyed_probil_ego.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_TankDestroyer_Target_Destroyed_snyali_s_nix_struzhku.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Tank
+            Action        = TAcknowUnitAction_Attack
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Attack_nakonecz_to.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Attack_navodchik_novaya_cel.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Attack_otkryt_ogon.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Attack_po_celi_ogon.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Attack_vstupayu_v_boj.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Tank
+            Action        = TAcknowUnitAction_DamageReceived
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_DamageReceived_bolvanka_v_Tank_udarila.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_DamageReceived_eshhyo_by_chut_chut_i.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Tank
+            Action        = TAcknowUnitAction_EnemyUnitContact
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Enemy_Contact_ya_bronya_cel_obnaruzhena.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Tank
+            Action        = TAcknowUnitAction_Move
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Move_dvizhenie_nachal.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Move_mexvod_k_orientiSOV_vperyod.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Move_ponyal_menyayu_poziciyu_otboj.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Move_tak_tochno_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Move_tanki_gryazi_ne_boyatsya.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Tank
+            Action        = TAcknowUnitAction_MoveAndAttackOrder
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Move_Attack_den_tvoj_poslednij_prixodit_burzhuj.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Move_Attack_dostanem_ix_iz_pod_zemli.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Move_Attack_ishhem_cel_ogon_po_gotovnosti.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Move_Attack_vperyod_ishhem_celi.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Move_Attack_vperyod_ogon_s_korotkix.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Tank
+            Action        = TAcknowUnitAction_OutOfAmmo
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_No_Ammo_boekomplekta_bolshe_net.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Tank
+            Action        = TAcknowUnitAction_Panicking
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Panicking_nazad_nazad.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Panicking_zhmi_nazad.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Tank
+            Action        = TAcknowUnitAction_PositionForbidden
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Impossible_ne_ponyal_povtorite_prikaz.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Tank
+            Action        = TAcknowUnitAction_QuickMove
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Move_Fast_bolshe_xod.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Move_Fast_bystrym_marshem_vperyod.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Move_Fast_po_doroge_budet_namnogo_bystree.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Move_Fast_pribav_skorosti_xodu.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Tank
+            Action        = TAcknowUnitAction_Reverse
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Reverse_sdayom_nazad_akkuratno.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Reverse_zadnim_xodom_marsh.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Tank
+            Action        = TAcknowUnitAction_Select
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Select_bronya_na_svyazi.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Select_ekipazh_tanka_k_boyu_gotov.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Select_gromko_i_chyotko.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Select_k_boyu_gotov.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Select_na_svyazi.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Select_po_mestam.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Select_proverka_svyazi_priem.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Select_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Select_zhdu_novyx_ukazanij.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Select_zhdu_vashix_ukazanij.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Tank
+            Action        = TAcknowUnitAction_ShootOnPosition
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Attack_Position_podavit_ognyom.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Tank
+            Action        = TAcknowUnitAction_Stop
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Stop_tormozhu.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Tank
+            Action        = TAcknowUnitAction_Surrender
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Surrender_pokinut_mashinu.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Tank
+            Action        = TAcknowUnitAction_TargetDestroyed
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Target_Destroyed_molodecz_navodchik.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Tank_Target_Destroyed_xorosho_gorit.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Transport
+            Action        = TAcknowUnitAction_Attack
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Attack_ponyal_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Attack_razberemsya_s_nimi.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Attack_u_nas_tut_tozhe_ne_pishhal.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Attack_vstupayu_v_ognevoj_kontakt.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Attack_zadadim_im_zharu.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Transport
+            Action        = TAcknowUnitAction_DamageReceived
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_DamageReceived_ne_uveren_chto_nam_povezyot_v_sleduyushhij_raz.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_DamageReceived_silno_nas_zadelo.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Transport
+            Action        = TAcknowUnitAction_EnemyUnitContact
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Enemy_Contact_kazhetsya_eto_ne_nashi.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Transport
+            Action        = TAcknowUnitAction_LoadIntoTransport
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Load_chto_pexota_nogi_promochili.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Load_davaj_na_bronyu.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Transport
+            Action        = TAcknowUnitAction_Move
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Move_dvizhemsya_k_zadannoj_tochke.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Move_ponyal_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Move_pora_vydvigatsya_na_poziciyu.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Move_vydvigaemsya.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Move_zdes_vse_ukazateli_ne_po_nashemu.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Transport
+            Action        = TAcknowUnitAction_MoveAndAttackOrder
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Move_Attack_dobrom_eto_ne_konchitsya.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Move_Attack_dvizhimsya_vperyod_smotret_po_storonam.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Move_Attack_ex_bolshe_by_tankov.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Move_Attack_na_ostrie_ataki.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Move_Attack_prikryvaem_pexotu.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Transport
+            Action        = TAcknowUnitAction_OutOfAmmo
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_No_Ammo_chyort_poberi_gde_nashe_snabzhenie.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Transport
+            Action        = TAcknowUnitAction_Panicking
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Panicking_nazad_nazad_nazad.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Panicking_povorachivaj_povorachivaj.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Transport
+            Action        = TAcknowUnitAction_PositionForbidden
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Impossible_vy_uvereny_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Transport
+            Action        = TAcknowUnitAction_QuickMove
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Move_Fast_bystree_my_opazdyvaem.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Move_Fast_na_marshe.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Move_Fast_po_konyam.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Move_Fast_tak_daleko.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Move_Fast_xoroshie_u_nix_dorogi.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Transport
+            Action        = TAcknowUnitAction_Reverse
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Reverse_sdayom_nazad.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Reverse_vrubaj_zadnyuyu.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Transport
+            Action        = TAcknowUnitAction_Select
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Select_dvigatel_rabotaet_my_zhdem.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Select_govoryat_eta_vojna_budet_bystroj.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Select_k_transportirovke_gotov.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Select_mobilnost_i_manevrennost.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Select_nado_bylo_idti_v_svyazisty.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Select_svyaz_nalazhena.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Select_taksi_zakazyvali.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Select_transport_gotov.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Select_vot_i_sezdili_na_ucheniya.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Select_zhdu_vashix_ukazanij.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Transport
+            Action        = TAcknowUnitAction_ShootOnPosition
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Attack_Position_ne_dumaj_strelyaj.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Transport
+            Action        = TAcknowUnitAction_Stop
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Stop_ne_goni_konej_pritormozi.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Transport
+            Action        = TAcknowUnitAction_Surrender
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Surrender_vsem_srochno_pokinut_mashinu.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Transport
+            Action        = TAcknowUnitAction_TargetDestroyed
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Target_Destroyed_tak_emu.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Transport
+            Action        = TAcknowUnitAction_Unload
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Unload_vyxodim_i_v_storony.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_Unload_vyxodim_na_rubezh_speshivaniya.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Transport
+            Action        = TAcknowUnitAction_UnloadAtPosition
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_UnloadAtPosition_ottuda_peshkom.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Transport_UnloadAtPosition_vygruzhu_vot_tam.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Vehicle
+            Action        = TAcknowUnitAction_Attack
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Attack_i_dazhe_ne_dumajte_o_poshhade.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Attack_kto_k_nam_s_mechom_pridyot_ot_mecha_i_pogibnet.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Attack_ne_ostavim_ot_nix_i_sleda.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Attack_ogon_iz_vsex_orudij.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Attack_orudie_zaryazheno_i_navedeno.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Attack_otpravte_ix_k_praotczam.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Attack_sezon_oxoty_otkryt.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Attack_xoroshij_kapitalist_mertvyj_kapitalist.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Vehicle
+            Action        = TAcknowUnitAction_DamageReceived
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_DamageReceived_ox_tut_slishkom_goryacho.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_DamageReceived_zhelezo_eshhyo_vyderzhet_a_my_net.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Vehicle
+            Action        = TAcknowUnitAction_EnemyUnitContact
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Enemy_Contact_v_nashem_kvadrate_protivnik.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Vehicle
+            Action        = TAcknowUnitAction_Move
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Move_mexvod_nasha_cel_vot_tam.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Move_prikaz_poluchen.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Move_vas_ponyal_konecz_svyazi.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Move_vperyod_i_kak_mozhno_bystree.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Move_vydvigaemsya_skripya_zhelezom.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Vehicle
+            Action        = TAcknowUnitAction_MoveAndAttackOrder
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Move_Attack_dlya_nas_net_pregrad.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Move_Attack_edem_vperyod_i_strelyaem_vo_vsyo_chto.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Move_Attack_eto_vsego_lish_progulka.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Move_Attack_tak_tochno_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Move_Attack_vydvigaemsya_no_derzhim_uxo_vostro.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Vehicle
+            Action        = TAcknowUnitAction_OutOfAmmo
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_No_Ammo_strelyat_ne_mozhem_snaryadov_net.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Vehicle
+            Action        = TAcknowUnitAction_Panicking
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Panicking_mexvod_vyvozi_nas_otsyuda.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Panicking_my_pod_pricelom_u_vsego_nato.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Vehicle
+            Action        = TAcknowUnitAction_PositionForbidden
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Impossible_eto_nevozmozhno_chisto_texnicheski.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Vehicle
+            Action        = TAcknowUnitAction_QuickMove
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Move_Fast_dvigaemsya_bystro_no_smotrim_po_storonam.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Move_Fast_mchimsya_na_vsex_parax.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Move_Fast_my_uzhe_tam.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Move_Fast_poeeexali.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Move_Fast_pribavim_ka_xodu_i_vpered.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Vehicle
+            Action        = TAcknowUnitAction_Reverse
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Reverse_polnyj_nazad.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Reverse_pyatimsya_nazad.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Vehicle
+            Action        = TAcknowUnitAction_Select
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Select_gotov_k_boyu.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Select_kakov_plan.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Select_mashina_gotova_tovarishh_komandir.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Select_mashina_zhdyot_prikaza.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Select_prikaz_nam_yasen.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Select_shum_motorov_eto_pro_nas.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Select_skorej_by_nastuplenie.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Select_slushayu_vas.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Select_tak_tochno.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Select_u_vas_est_dlya_nas_novyj_prikaz.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Select_vashi_prikazy.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Vehicle
+            Action        = TAcknowUnitAction_ShootOnPosition
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Attack_Position_ostavim_vyzhzhenuyu_zemlyu.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Vehicle
+            Action        = TAcknowUnitAction_Stop
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Stop_stop_mashina.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Vehicle
+            Action        = TAcknowUnitAction_Surrender
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Surrender_srazhatsya_bolshe_net_sil.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
+        TAcknowDescriptor (
+            MotherCountry = 'UKR'
+            TypeSpecific  = TAcknowUnitType_Vehicle
+            Action        = TAcknowUnitAction_TargetDestroyed
+            Sounds        = [
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Target_Destroyed_eshhyo_odin_gotov.ogg' Filter = TSoundFilter_RadioVehicule ),
+                Template_UnitAcknow( FileName = 'GameData:/Assets/Sons/Acknows/SOV/SOV_Vehicle_Target_Destroyed_xa_oni_uzhe_istoriya.ogg' Filter = TSoundFilter_RadioVehicule ),
+            ]
+        ),
     ]
 )

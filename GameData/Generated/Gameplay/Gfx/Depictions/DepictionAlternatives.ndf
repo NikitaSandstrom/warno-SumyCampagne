@@ -10330,6 +10330,12 @@ Alternatives_BRDM_2_UKR is [
     DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_BRDM_2_UKR_LOW ),
 ]
 
+Alternatives_BRDM_2_trans_UKR is [
+    DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_BRDM_2_trans_UKR ),
+    DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_BRDM_2_trans_UKR_MID ),
+    DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_BRDM_2_trans_UKR_LOW ),
+]
+
 Alternatives_BTR_60_kom_UKR is [
     DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_BTR_60_kom_UKR ),
     DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_BTR_60_kom_UKR_MID ),

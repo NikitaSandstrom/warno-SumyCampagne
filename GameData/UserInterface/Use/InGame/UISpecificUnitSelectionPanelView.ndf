@@ -1081,7 +1081,7 @@ UISpecificUnitSelectionPanelViewDescriptor is TUISpecificUnitSelectionPanelViewD
 
     SupplyButtonData =
     [
-        TSupplyButtonData
+        TSupplyButtonData //Display only if TSupplyDescriptor is AmmoSupply
         (
             SupplyButtonToken = "USP_SUPAMM"
             SupplyButtonTexture = "weapon_panel_supply_ammo_texture"
